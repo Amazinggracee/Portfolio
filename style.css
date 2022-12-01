@@ -19,11 +19,16 @@ header {
   align-items: center;
   position: absolute;
   background: #3c3a39;
-  height: 92px;
+  height: 72px;
   left: 0;
   top: 0;
   flex-wrap: wrap;
   width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #dbd8d7;
 }
 
 .logo {
