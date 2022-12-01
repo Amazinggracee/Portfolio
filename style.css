@@ -5,13 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1C1A19;
-
 }
 
 /* Style for Header */
@@ -28,11 +26,10 @@ header {
   top: 0;
   flex-wrap: wrap;
   width: 100%;
-
 }
 
 .logo {
-  font-family: 'Roboto';
+  font-family: 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -47,7 +44,6 @@ header {
   margin-left: 10px;
   margin-top: 20px;
   margin-bottom: 8px;
-
 }
 
 .image {
@@ -56,14 +52,13 @@ header {
   float: left;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-right: 10px;
   margin-top: 20px;
   margin-bottom: 8px;
-
 }
 
 .image img {
@@ -74,7 +69,6 @@ header {
   width: 18px;
   margin: 2px;
   display: flex;
-
 }
 
 /* Style for Headline */
@@ -87,7 +81,6 @@ header {
   padding: 120px 24px;
   gap: 12px;
   background: #1C1A19;
-
 }
 
 .headline-h1 {
@@ -95,7 +88,7 @@ header {
   height: auto;
   top: 120px;
   left: 24px;
-  font: 'Crete Round';
+  font-family: 'Crete Round';
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -104,7 +97,6 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
 .headline-h3 {
@@ -118,7 +110,6 @@ header {
   color: #FFF5E1;
   width: 327px;
   height: 27px;
-
 }
 
 .headline-p {
@@ -132,29 +123,24 @@ header {
   flex: none;
   order: 2;
   flex-grow: 0;
-
 }
 
 .icons {
  padding: 5px;
  color: #DBD8D7;
  font-size: 22px;
-
 }
 
 .icons .fa {
   padding: 5px;
-
 }
 
 .icons img {
   height: 18px;
   width: 18px;
   border: none;
-
 }
 
 #mlet {
   background-color: #1C1A19;
-  
 }
