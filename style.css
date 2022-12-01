@@ -1,28 +1,34 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1C1A19;
 }
+
 /* Style for Header */
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  background: #3c3a39;
+  background: #3C3A39;
   height: 92px;
   left: 0;
   top: 0;
   flex-wrap: wrap;
   width: 100%;
 }
-.logo{
+
+.logo {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -31,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -39,13 +45,14 @@ header {
   margin-top: 20px;
   margin-bottom: 8px;
 }
-.image{
+
+.image {
   display: flex;
   flex-direction: column;
   float: left;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -53,8 +60,9 @@ header {
   margin-top: 20px;
   margin-bottom: 8px;
 }
-.image img{
-  border: 2px solid #acb7c3;
+
+.image img {
+  border: 2px solid #ACB7C3;
   left: 16.67%;
   right: 16.67%;
   height: 2px;
@@ -62,8 +70,10 @@ header {
   margin: 2px;
   display: flex;
 }
+
 /* Style for Headline */
-.headline{
+
+.headline {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -72,7 +82,8 @@ header {
   gap: 12px;
   background: #1C1A19;
 }
-.headline-h1{
+
+.headline-h1 {
   width: auto;
   height: auto;
   top: 120px;
@@ -82,12 +93,13 @@ header {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #FF6B00;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-.headline-h3{
+
+.headline-h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -95,35 +107,40 @@ header {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: #FFF5E1;
   width: 327px;
   height: 27px;
 }
-.headline-p{
+
+.headline-p {
   font-family: 'Popins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #FFFFFF;
   width: 327px;
   flex: none;
   order: 2;
   flex-grow: 0;
 }
-.icons{
+
+.icons {
  padding: 5px;
- color: #dbd8d7;
+ color: #DBD8D7;
  font-size: 22px;
 }
-.icons .fa{
+
+.icons .fa {
   padding: 5px;
 }
-.icons img{
+
+.icons img {
   height: 18px;
   width: 18px;
   border: none;
 }
-#mlet{
+
+#mlet {
   background-color: #1C1A19;
 }
