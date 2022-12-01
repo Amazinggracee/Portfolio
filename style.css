@@ -1,29 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: #1C1A10;
-  }
-  .navbar{
-    background: #3C3A39;
-  }
-} */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1C1A19;
 }
-
 /* Style for Header */
-
-
-
-
 header {
   display: flex;
   flex-direction: row;
@@ -36,8 +21,6 @@ header {
   top: 0;
   flex-wrap: wrap;
   width: 100%;
-
-
 }
 .logo{
   font-family: 'Roboto';
@@ -79,9 +62,7 @@ header {
   margin: 2px;
   display: flex;
 }
-
 /* Style for Headline */
-
 .headline{
   display: flex;
   flex-wrap: wrap;
@@ -90,9 +71,7 @@ header {
   padding: 120px 24px;
   gap: 12px;
   background: #1C1A19;
- 
 }
-
 .headline-h1{
   width: auto;
   height: auto;
@@ -107,9 +86,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
-
 .headline-h3{
   font-family: 'Roboto';
   font-style: normal;
@@ -122,7 +99,6 @@ header {
   width: 327px;
   height: 27px;
 }
-
 .headline-p{
   font-family: 'Popins';
   font-style: normal;
@@ -134,9 +110,7 @@ header {
   flex: none;
   order: 2;
   flex-grow: 0;
-
 }
-
 .icons{
  padding: 5px;
  color: #dbd8d7;
