@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 
 body {
   font-family: 'Courier New';
-  background-color: #1C1A19;
+  background-color: #1c1a19;
 }
 
 /* Style for Header */
@@ -18,7 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  background: #3C3A39;
+  background: #3c3a39;
   height: 92px;
   left: 0;
   top: 0;
@@ -34,7 +36,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -49,7 +51,7 @@ header {
   float: left;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -59,7 +61,7 @@ header {
 }
 
 .image img {
-  border: 2px solid #ACB7C3;
+  border: 2px solid #acb7c3;
   left: 16.67%;
   right: 16.67%;
   height: 2px;
@@ -77,7 +79,7 @@ header {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .headline-h1 {
@@ -89,7 +91,7 @@ header {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -102,7 +104,7 @@ header {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
+  color: #fff5e1;
   width: 327px;
   height: 27px;
 }
@@ -112,7 +114,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 327px;
   flex: none;
   order: 2;
@@ -121,7 +123,7 @@ header {
 
 .icons {
  padding: 5px;
- color: #DBD8D7;
+ color: #dBd8d7;
  font-size: 22px;
 }
 
@@ -136,6 +138,5 @@ header {
 }
 
 #mlet {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
 }
-
