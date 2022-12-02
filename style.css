@@ -81,6 +81,13 @@ a {
   background-color: #1c1a19;
 }
 
+#headline{
+  background-image: url('./Images/Illustration.png');
+  background-position: right bottom;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
 .headline-h1 {
   margin-top: 10px;
   width: auto;
@@ -133,12 +140,6 @@ ul {
   list-style-type: none;
 }
 
-/* #icons{
-  background-image: url('./Images/Illustration.png');
-  background-position: right;
-  background-size:400px cover;
-
-} */
 .icons li {
   padding: 5px;
 }
