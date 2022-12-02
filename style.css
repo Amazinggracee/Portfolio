@@ -229,6 +229,7 @@ i {
 
 .about img {
   width: 327px;
+  height: 1px;
   border: 1px solid #212121;
   flex: none;
   flex-grow: 0;
