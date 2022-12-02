@@ -164,7 +164,7 @@ i {
   color: #091e42;
 }
 
-.about p{
+.about p {
   width: 327px;
   height: 147px;
   font-style: normal;
@@ -176,7 +176,7 @@ i {
   order: 1;
   flex-grow: 0;
 }
- 
+
 hr {
   border: 2px solid #212121;
   width: 100%;
@@ -211,7 +211,6 @@ hr {
   padding: 12px;
   gap: 10px;
   align-items: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -221,7 +220,6 @@ hr {
   color: #fff;
   order: 0;
   flex-grow: 0;
-  top: calc(50% - 48px/ 2 + 46.5px);
   width: 130px;
   height: 50px;
   border: 2px solid #f55800;
@@ -234,7 +232,6 @@ hr {
   padding: 12px;
   gap: 10px;
   left: 252px;
-  top: calc(50% - 48px/ 2 + 46.5px);
   color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -252,16 +249,15 @@ hr {
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: #F4F1F0;
+  color: #f4f1f0;
 }
 
-.orange1:disabled{
+.orange1:disabled {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
   width: 93px;
-  top: calc(50% - 48px/ 2 + 46.5px);
   background: #f4f1f0;
 }
