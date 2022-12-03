@@ -31,7 +31,9 @@ a {
 .logo {
   width: 67px;
   height: 24px;
+  
   /* font-family: 'Roboto'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -90,7 +92,9 @@ a {
 }
 
 .headline h1 {
+  
   /* font-family: 'Crete Round'; */
+  
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -105,7 +109,9 @@ a {
 .headline h2 {
   width: 327px;
   height: 27px;
+  
   /* font-family: 'Roboto'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -168,7 +174,9 @@ i {
   justify-content: space-around;
   width: 327px;
   height: 83px;
+  
   /* font-family: 'Crete Round'; */
+  
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -198,7 +206,9 @@ i {
   justify-content: space-around;
   width: 327px;
   height: 36px;
+  
   /* font-family: 'Crete Round'; */
+  
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -217,7 +227,9 @@ i {
   width: 327px;
   height: 147px;
   font-style: normal;
+  
   /* font-family: 'Inter'; */
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -271,7 +283,9 @@ i {
 .item1 span {
   width: 25px;
   height: 20px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -296,7 +310,9 @@ i {
 .item2 span {
   width: 32px;
   height: 20px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -325,7 +341,9 @@ i {
 .item3 span {
   width: 71px;
   height: 20px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -354,7 +372,9 @@ i {
 .item4 span {
   width: 37px;
   height: 20px;
+ 
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -384,7 +404,9 @@ i {
 .orange1 span {
   width: 100px;
   height: 24px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -419,7 +441,9 @@ i {
 .orange1 span:hover {
   width: 69px;
   height: 24px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -450,7 +474,9 @@ i {
 .orange1 span:active {
   width: 69px;
   height: 24px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -459,7 +485,7 @@ i {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color:#f4f1f0;
+  color: #f4f1f0;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -481,7 +507,9 @@ i {
 .orange1 span:disabled {
   width: 69px;
   height: 24px;
+  
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
