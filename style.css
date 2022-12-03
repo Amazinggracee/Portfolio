@@ -118,7 +118,7 @@ a {
   align-items: center;
   color: #fff5e1;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
 }
 
