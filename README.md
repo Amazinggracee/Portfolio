@@ -2,13 +2,17 @@
 
 
 # 📗 Table of Contents
-
+# First Project <a name="Portfolio"></a>
 1. The navbar
 2. The headline
 
 # 📖  Hello Microverse <a name="about-project"></a>
 
-Hello Microverse is a project about how to  document your work in a professional way.
+Hello Microverse is a project on how to  document your work in a professional way.
+Understand how to parse a Figma design to create a UI.
+Use Flexbox to place elements in the page.
+Use CSS Grid to place elements in the page.
+Build a personal portfolio site.
 
 ## 🛠 Microverse<a name="built-with"></a>
 
@@ -48,6 +52,8 @@ Hello Microverse is a project about how to  document your work in a professional
 
 ## 🙏My Morning Section Team  and Coding partners<a name="acknowledgements"></a>
 
+# External Resources 
+www.w3school.com
 
 I would like to thank you all for your support.
 
