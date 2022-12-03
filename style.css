@@ -78,8 +78,7 @@ a {
 .headline {
   display: grid;
   justify-content: space-around;
-  text-align: center;
-  align-items: center;
+  text-align: left;
   padding: 120px 24px;
   height: auto;
   width: auto;
