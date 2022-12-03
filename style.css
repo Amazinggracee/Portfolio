@@ -92,7 +92,6 @@ a {
 }
 
 .headline h1 {
-
   /* font-family: 'Crete Round'; */
 
   font-style: normal;
@@ -430,7 +429,7 @@ i {
   gap: 10px;
 
   /* position: absolute; */
- 
+
   width: 93px;
   height: 48px;
   left: 252px;
