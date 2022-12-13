@@ -165,11 +165,11 @@
         so if you'd like to chat please get in touch.</h3>
   
     <form action="https://formspree.io/f/maykrgwn" method="POST">
-        <input name="fullName" type="text" placeholder="Full Name" maxlength="30" required>
+        <input name="fullName" type="text" placeholder="Full Name" max="30"  min="10"required>
         <hr>
         <input name="Email" id="email" type="email" placeholder="Your email">
         <hr>
-        <textarea placeholder="textarea" name="message" maxlength="500" required>Enter text here</textarea>
+        <textarea placeholder="textarea" name="message" max="500" min="50" required>Enter text here</textarea>
         <br>
         <button type="submit">Get in Touch</button>
     </form>
