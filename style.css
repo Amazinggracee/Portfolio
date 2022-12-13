@@ -1,7 +1,3 @@
-/* 320px (iPhone landscape), 480 px (iPhone portrait), 
- 600px (Android Tablets), 768px (iPad + ~Galaxy Tabs) and 
- 1024px (iPad landscape and desktops).
-  */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
@@ -214,7 +210,6 @@ a {
   flex: none;
   background-position: center;
   background-repeat: no-repeat;
-
   order: 0;
   flex-grow: 0;
 }
@@ -484,7 +479,6 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: var(--dark);
 }
 
 .orange1:active {
@@ -568,7 +562,6 @@ a {
   background-image: url(./Images/Img\ Placeholder2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 0px;
 }
 
 .pro-h1 {
@@ -594,7 +587,9 @@ a {
 .pro-h3 {
   width: 100%;
   height: 87px;
-  font-family: "Inter";
+
+  /* font-family: "Inter"; */
+
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -729,7 +724,7 @@ a {
   height: 148px;
 
   /* font-family: 'Inter'; */
-  
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
