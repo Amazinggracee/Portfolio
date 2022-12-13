@@ -669,11 +669,10 @@ a {
   position: absolute;
   width: 100%;
   height: 48px;
-  left: 0px;
-  top: 0px;
   background: var(--orange);
   top: 2540px;
   border: none;
+  margin-right: 10px;
 }
 
 .try span {
@@ -728,7 +727,9 @@ a {
 .about div p {
   width: 100%;
   height: 148px;
+
   /* font-family: 'Inter'; */
+  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -751,6 +752,7 @@ a {
   gap: 12px;
   background-color: var(--dark);
 }
+
 .v-white {
   color: var(--white);
   width: 100%;
@@ -765,6 +767,7 @@ a {
   align-items: center;
   text-align: center;
 }
+
 .mainh1 {
   color: var(--white);
   font-style: normal;
@@ -852,12 +855,11 @@ hr {
   height: 2px;
   color: var(--lightgrey);
 }
+
 textarea {
   height: 114px;
   width: 327px;
   border: none;
-  height: 90px;
-  width: 303px;
   left: 12px;
   top: 12px;
   font-size: 18px;
