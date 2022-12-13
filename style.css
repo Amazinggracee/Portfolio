@@ -402,6 +402,11 @@ a {
   flex-grow: 0;
 }
 
+form a {
+  display: flex;
+  justify-content: center;
+}
+
 .works a {
   display: flex;
   justify-content: center;
@@ -442,6 +447,16 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.try span {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white2);
 }
 
 .orange1:hover {
@@ -670,16 +685,6 @@ a {
   margin-right: 10px;
 }
 
-.try span {
-  width: 100%;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--white2);
-}
-
 .try:hover {
   border: 2px solid var(--orange3);
 }
@@ -860,11 +865,6 @@ textarea {
   font-size: 18px;
   text-align: start;
   color: var(--medium-grey2);
-}
-
-form a {
-  display: flex;
-  justify-content: center;
 }
 
 /* Styling footer */
