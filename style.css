@@ -402,10 +402,6 @@ a {
   flex-grow: 0;
 }
 
-form a {
-  display: flex;
-  justify-content: center;
-}
 
 .works a {
   display: flex;
@@ -676,7 +672,9 @@ form a {
 
 .try {
   margin-top: 120px;
-  position: absolute;
+
+  /* position: absolute; */
+  
   width: 100%;
   height: 48px;
   background: var(--orange);
@@ -838,7 +836,7 @@ form {
 
 form input {
   border: none;
-  height: 18px;
+  height: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -865,6 +863,30 @@ textarea {
   font-size: 18px;
   text-align: start;
   color: var(--medium-grey2);
+}
+
+form button {
+  width: 150px;
+  height: 50px;
+  
+  /* font-family: 'Inter'; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: var(--orange2);
+  border: var(--orange2);
+  justify-content: space-around;
+  margin-left: 40%;
 }
 
 /* Styling footer */
