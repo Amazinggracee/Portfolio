@@ -6,7 +6,7 @@
 1. The navbar
 2. The headline
 
-# 📖  Hello Microverse <a name="about-project"></a>
+# 📖  My Portfolio <a name="about-project">My-portfolio</a>
 
 Hello Microverse is a project on how to  document your work in a professional way.
 Understand how to parse a Figma design to create a UI.
