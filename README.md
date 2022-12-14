@@ -6,7 +6,7 @@
 1. The navbar
 2. The headline
 
-# 📖  Hello Microverse <a name="about-project"></a>
+# 📖  My Portfolio <a name="about-project">My-portfolio</a>
 
 Hello Microverse is a project on how to  document your work in a professional way.
 Understand how to parse a Figma design to create a UI.
@@ -44,9 +44,15 @@ Build a personal portfolio site.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Amazinggracee)
-- Twitter: [@twitterhandle](https://twitter.com/amazinggraceu)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/amarachi-dimkpa-070643183)
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
+
+ 👤 **Author1**
+
+- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
+- Twitter: [@ramgt001](https://twitter.com/home)
+- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -63,7 +69,6 @@ I would like to thank you all for your support.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
