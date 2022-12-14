@@ -44,9 +44,9 @@ Build a personal portfolio site.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Amazinggracee)
-- Twitter: [@twitterhandle](https://twitter.com/amazinggraceu)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/amarachi-dimkpa-070643183)
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
  👤 **Author1**
 
