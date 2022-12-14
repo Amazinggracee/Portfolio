@@ -48,6 +48,12 @@ Build a personal portfolio site.
 - Twitter: [@twitterhandle](https://twitter.com/amazinggraceu)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
+ 👤 **Author1**
+
+- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
+- Twitter: [@ramgt001](https://twitter.com/home)
+- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏My Morning Section Team  and Coding partners<a name="acknowledgements"></a>
@@ -63,7 +69,6 @@ I would like to thank you all for your support.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
