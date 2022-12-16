@@ -28,10 +28,13 @@
 
 # 📖 [porfolio] <a name="about-project">https://github.com/Amazinggracee/Portfolio</a>
 
- Understand how to parse a Figma design to create a UI.
-  Use Flexbox to place elements in the page.
-  Use CSS Grid to place elements in the page.
-  Build a personal portfolio site.
+Portfolio: desktop version.
+
+In this project, I built the desktop version of my portfolio using media query:
+-[] Follow GitHub Flow
+-[] Fix Linters Errors
+-[] Use Grid and FlexBox
+-[] Follow HTML and CSS best practices
 
 Portfolio project is a project about me as a Website developer, the projects I have handled and also hoe to contact me when you need my services.
 
