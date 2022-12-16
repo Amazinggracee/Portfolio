@@ -32,6 +32,7 @@
 a {
   text-decoration: none;
 }
+
 .container {
   width: 100%;
   margin: auto;
@@ -398,10 +399,12 @@ a {
   width: 100%;
   height: 500px;
   flex: none;
-  background-position: center;
+
+  /* background-position: center; */
+
   order: 0;
   flex-grow: 0;
-  background: url(./Images/Img\ Placeholder.png);
+  background-image: url(./Images/Img\ Placeholder.png);
   background-position: left;
   background-size: 550px;
   background-repeat: no-repeat;
@@ -1706,6 +1709,7 @@ a {
 .contactA {
   height: 700px;
 }
+
 .contact1 {
   display: flex;
   flex-direction: row;
@@ -1729,7 +1733,6 @@ a {
   line-height: 44px;
   text-align: center;
   color: var(--navy-blue2);
-  flex: none;
   order: 0;
   flex-grow: 0;
   margin-left: 20px;
@@ -1846,6 +1849,7 @@ textarea {
   .contactA {
     height: auto;
   }
+
   .contact1 {
     display: flex;
     flex-direction: column;
@@ -1941,7 +1945,7 @@ textarea {
     margin-bottom: 20px;
   }
 
-  /* media query for footer @768px*/
+  /*media query for footer @768px*/
 
   .dark-icons {
     display: flex;
@@ -1960,6 +1964,7 @@ textarea {
     width: 100%;
     justify-content: left;
   }
+
   .contact1 {
     display: flex;
     flex-direction: column;
@@ -1996,8 +2001,9 @@ textarea {
   }
 
   form .inp {
-    margin-left: 0px;
+    margin-left: 0;
   }
+
   form input {
     border: none;
     height: 30px;
@@ -2042,10 +2048,10 @@ textarea {
     border: var(--orange2);
     justify-content: space-around;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
-  /* media query for footer @768px*/
+  /*media query for footer @768px*/
 
   .dark-icons {
     display: flex;
