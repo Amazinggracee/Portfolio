@@ -64,6 +64,11 @@ a {
   display: none;
 }
 
+.works a {
+  display: flex;
+  justify-content: center;
+}
+
 .navA a:hover {
   background-color: var(--light-color);
   color: black;
@@ -595,6 +600,36 @@ a {
   flex-grow: 0;
 }
 
+.try span {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white2);
+}
+
+.orange1 span {
+  width: 120px;
+  height: 24px;
+
+  /* font-family: 'Inter'; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .item3 a span {
   width: 71px;
   height: 20px;
@@ -627,11 +662,6 @@ a {
   flex-grow: 0;
 }
 
-.works a {
-  display: flex;
-  justify-content: center;
-}
-
 .orange1 {
   display: flex;
   flex-direction: row;
@@ -647,36 +677,6 @@ a {
   order: 3;
   flex-grow: 0;
   border: 2px solid var(--orange2);
-}
-
-.orange1 span {
-  width: 120px;
-  height: 24px;
-
-  /* font-family: 'Inter'; */
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--white);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.try span {
-  width: 100%;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--white2);
 }
 
 .orange1:hover {
@@ -993,7 +993,7 @@ a {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .item3 a span {
     width: 61px;
     height: 20px;
