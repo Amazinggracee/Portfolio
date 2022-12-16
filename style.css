@@ -166,6 +166,27 @@ a {
   padding: 10px;
 }
 
+.works h1 {
+  justify-content: space-around;
+  width: 100%;
+  height: 83px;
+
+  /* font-family: 'Crete Round'; */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: var(--dark);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .headline #hello h2 {
   width: 100%;
   height: auto;
@@ -210,6 +231,23 @@ a {
   flex-grow: 0;
 }
 
+.works p {
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 147px;
+  font-style: normal;
+
+  /* font-family: 'Inter'; */
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: var(--navy-blue);
+  flex: none;
+  flex-grow: 0;
+}
+
 .headline #hello p {
   flex-wrap: wrap;
   font-style: normal;
@@ -233,6 +271,15 @@ a {
   flex-direction: column;
   list-style-type: none;
   margin-left: 10px;
+}
+
+.works img {
+  width: 100%;
+  height: 1px;
+  border: 1px solid var(--coffee);
+  flex: none;
+  flex-grow: 0;
+  margin-bottom: 20px;
 }
 
 .icons li a img {
@@ -404,27 +451,6 @@ a {
   background-color: var(--white);
 }
 
-.works h1 {
-  justify-content: space-around;
-  width: 100%;
-  height: 83px;
-
-  /* font-family: 'Crete Round'; */
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: var(--dark);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 .placeholder-image {
   width: 100%;
   height: 500px;
@@ -468,32 +494,6 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.works p {
-  justify-content: space-around;
-  margin-bottom: 20px;
-  width: 450px;
-  height: 147px;
-  font-style: normal;
-
-  /* font-family: 'Inter'; */
-
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 24px;
-  color: var(--navy-blue);
-  flex: none;
-  flex-grow: 0;
-}
-
-.works img {
-  width: 100%;
-  height: 1px;
-  border: 1px solid var(--coffee);
-  flex: none;
-  flex-grow: 0;
-  margin-bottom: 20px;
 }
 
 #grid-case {
