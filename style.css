@@ -978,6 +978,22 @@ a {
     text-align: center;
   }
 
+  .item4 span {
+    width: 27px;
+    height: 20px;
+
+    /* font-family: 'Inter'; */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--navy-blue);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
   .item3 a span {
     width: 61px;
     height: 20px;
@@ -1007,22 +1023,6 @@ a {
     border: 1px solid var(--medium-grey2);
     flex: none;
     order: 3;
-    flex-grow: 0;
-  }
-
-  .item4 span {
-    width: 27px;
-    height: 20px;
-
-    /* font-family: 'Inter'; */
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: var(--navy-blue);
-    flex: none;
-    order: 0;
     flex-grow: 0;
   }
 }
