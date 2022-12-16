@@ -180,6 +180,22 @@ a {
   padding: 10px;
 }
 
+.about div p {
+  width: 60%;
+  height: 148px;
+
+  /* font-family: 'Inter'; */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white2);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
 .headline #hello p {
   flex-wrap: wrap;
   font-style: normal;
@@ -1171,6 +1187,19 @@ a {
   height: 50px;
 }
 
+#grid-case .try span:disabled {
+  text-align: center;
+  justify-items: center;
+  background: var(--white2);
+  height: 60px;
+  margin-bottom: 80px;
+  margin-left: 20%;
+  align-items: center;
+  width: 200px;
+  color: var(--medium-grey);
+  border: var(--white);
+}
+
 .pro-1 #grid-case .grid-container li span {
   color: var(--white2);
   font-size: 20px;
@@ -1223,19 +1252,6 @@ a {
   align-items: center;
   width: 200px;
   border: var(--white2);
-}
-
-#grid-case .try span:disabled {
-  text-align: center;
-  justify-items: center;
-  background: var(--white2);
-  height: 60px;
-  margin-bottom: 80px;
-  margin-left: 20%;
-  align-items: center;
-  width: 200px;
-  color: var(--medium-grey);
-  border: var(--white);
 }
 
 /* ------------Media Query for Profession @768px ------------ */
@@ -1392,22 +1408,6 @@ a {
   order: 0;
   flex-grow: 0;
   margin-bottom: 100px;
-}
-
-.about div p {
-  width: 60%;
-  height: 148px;
-
-  /* font-family: 'Inter'; */
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white2);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 /* ------------Media Query for About @768px------------ */
@@ -2051,7 +2051,7 @@ textarea {
     margin-left: 0;
   }
 
-   /* media query for footer @768px */
+     /* media query for footer @768px */
 
   .dark-icons {
     display: flex;
