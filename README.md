@@ -31,10 +31,10 @@
 Portfolio: desktop version.
 
 In this project, I built the desktop version of my portfolio using media query:
--[] Follow GitHub Flow
--[] Fix Linters Errors
--[] Use Grid and FlexBox
--[] Follow HTML and CSS best practices
+- [ ] Follow GitHub Flow
+- [ ] Fix Linters Errors
+- [ ] Use Grid and FlexBox
+- [ ] Follow HTML and CSS best practices
 
 Portfolio project is a project about me as a Website developer, the projects I have handled and also hoe to contact me when you need my services.
 
@@ -71,7 +71,7 @@ This will guide one on how to make responsive Portfolio that is accessible with 
 
 In order to run this project you need: 
 1. A computer with a code writer, I recommend Visual Studio Code.
-2. A pre-knowledge o HTML and CSS.
+2. A pre-knowledge of HTML and CSS.
 
 <!-- AUTHORS -->
 
