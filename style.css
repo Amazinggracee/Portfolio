@@ -180,6 +180,15 @@ a {
   padding: 10px;
 }
 
+.pro-1 p {
+  margin: 40px;
+  color: var(--white2);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  justify-items: center;
+}
+
 .about div p {
   width: 60%;
   height: 148px;
@@ -570,6 +579,22 @@ a {
   text-align: center;
 }
 
+.item4 span {
+  width: 37px;
+  height: 20px;
+
+  /* font-family: 'Inter'; */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--navy-blue);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .item3 a span {
   width: 71px;
   height: 20px;
@@ -599,22 +624,6 @@ a {
   border: 1px solid var(--medium-grey2);
   flex: none;
   order: 3;
-  flex-grow: 0;
-}
-
-.item4 span {
-  width: 37px;
-  height: 20px;
-
-  /* font-family: 'Inter'; */
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: var(--navy-blue);
-  flex: none;
-  order: 0;
   flex-grow: 0;
 }
 
@@ -1151,15 +1160,6 @@ a {
   justify-items: center;
 }
 
-.pro-1 p {
-  margin: 40px;
-  color: var(--white2);
-  font-size: 22px;
-  font-weight: 400;
-  text-align: center;
-  justify-items: center;
-}
-
 .pro-1 #grid-case .grid-container {
   background: none;
 }
@@ -1200,6 +1200,19 @@ a {
   border: var(--white);
 }
 
+#grid-case .try span:hover {
+  text-align: center;
+  justify-items: center;
+  background: var(--white2);
+  height: 60px;
+  margin-bottom: 80px;
+  margin-left: 20%;
+  align-items: center;
+  width: 200px;
+  color: var(--orange3);
+  border: var(--orange2);
+}
+
 .pro-1 #grid-case .grid-container li span {
   color: var(--white2);
   font-size: 20px;
@@ -1226,19 +1239,6 @@ a {
   margin-left: 40%;
   align-items: center;
   width: 200px;
-  border: var(--orange2);
-}
-
-#grid-case .try span:hover {
-  text-align: center;
-  justify-items: center;
-  background: var(--white2);
-  height: 60px;
-  margin-bottom: 80px;
-  margin-left: 20%;
-  align-items: center;
-  width: 200px;
-  color: var(--orange3);
   border: var(--orange2);
 }
 
