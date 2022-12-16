@@ -3,6 +3,7 @@
 
 # 📗 Table of Contents
 # First Project <a name="Portfolio"></a>
+# 📗  My Portfolio <a name="desktop version">My-portfolio</a>
 1. The navbar
 2. The headline
 
@@ -14,9 +15,19 @@ Use Flexbox to place elements in the page.
 Use CSS Grid to place elements in the page.
 Build a personal portfolio site.
 
-## 🛠 Microverse<a name="built-with"></a>
+# 📖  My Portfolio <a name="desktop version">My-portfolio</a>
 
-### Tech Stack <a name="tech-stack"></a>
+we Used media queries in our CSS file to make your desktop version look like the template we selected (Desktop: 768px or wider)(mobile: 375px or smaller)
+
+We laid out the elements on the page with Grid and Flexbox.
+
+No JavaScript was implemented.
+
+We tried to replicate the design on Figma.
+
+## 🛠 Microverse<a name="built-with">Microverse student</a>
+
+### Tech Stack <a name="tech-stack">Tshepo Gladwin Ramantso</a>
 
 <details>
   <summary>HTML</summary>
@@ -36,8 +47,10 @@ Build a personal portfolio site.
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**Nav bar
-- **[key_feature_1]**headline
+- **[key_feature_1]**Home
+- **[key_feature_1]**About
+- **[key_feature_1]**contact
+- **[key_feature_1]**Porfolio
 <!-- AUTHORS -->
 
 ## 👥 Amarachi Dimkpa <a name="authors"></a>
