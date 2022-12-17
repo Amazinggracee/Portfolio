@@ -890,12 +890,11 @@ form button:hover {
 }
 
 @keyframes peer {
-  0%   {background-color:#172b4d;}
-  25%  {background-color:#396df2;}
-  50%  {background-color:#7f8cff;}
-  100% {background-color:#cfd8dc;}
+  0%   { background-color:#172b4d; }
+  25%  { background-color:#396df2; }
+  50%  { background-color:#7f8cff; }
+  100% { background-color:#cfd8dc; }
 }
-
 
 /* Styling footer */
 
@@ -1653,5 +1652,4 @@ form button:hover {
     justify-content: space-around;
     margin-left: 5%;
   }
-  
 }
