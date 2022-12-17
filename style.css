@@ -933,7 +933,12 @@ form button {
     display: flex;
     justify-content: center;
   }
-  
+
+  .about a {
+    float: left;
+    margin-right: 97%;
+  }
+
   .navA a:hover {
     background-color: var(--light-color);
     color: black;
@@ -1472,11 +1477,6 @@ form button {
     background-repeat: no-repeat;
   }
 
-  .about a {
-    float: left;
-    margin-right: 97%;
-  }
-
   /* ----------Media Query for language */
 
   .prog-lang {
@@ -1577,7 +1577,7 @@ form button {
     width: 100%;
     gap: 8px;
     justify-content: space-around;
-    margin: 20px;
+    padding: 20px;
   }
 
   form input {
