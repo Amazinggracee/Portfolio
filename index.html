@@ -16,30 +16,41 @@
 </head>
 <body>
     <!-- Header start -->
-        <header>
-                <div class="logo">
-                    <h1 class="logo">Amarachi Dimkpa</h1>
-                </div>
-                <nav class="image">
-                    <img src="./Images/Vector.png" alt="">
-                    <img src="./Images/Vector.png" alt="">
-                    <img src="./Images/Vector.png" alt="">
-                </nav>
-                    
-                
-        </header>
+    <header>
+
+            
+        <!-- Nav menu -->
+<div class="container">
+
+<!-- Top Navigation Menu -->
+<div class="navA">
+<a href="#home" class="active">Amara Dimkpa</a>
+<div id="myLinks">
+<a href="#portfolio">Portfolio</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+<p class="icon">
+<i class="fa fa-bars"></i>
+</p>
+</div>
+            
+        
+</header>
 <!-- Header end -->
 
 <!-- Headline section start -->
 
 <section class="headline">
-        <h1>Hello.<br> I am Amara</h1>
-        <h2>I am a Software Developer</h2>
-        <p>I can help you build a product , feature or website Look through some of 
-            my work and experience! If you like what you see  and  have a project you need coded, 
-            don't hestiate to contact me.
-        </p>
-        
+        <div class="ama">
+            <h1>Hello.<br> I am Amara</h1>
+            <h2>I am a Software Developer</h2>
+            <p>I can help you build a product , feature or website Look through some of 
+                my work and experience! If you like what you see  and  have a project you need coded, 
+                don't hestiate to contact me.
+            </p>
+        </div>
+        <div class="chi">
             <ul class="icons">
                 <li><a href="#"><img src="./Images/Icon -GitHub.png" alt=""></a></li>
                 <li><a href="#"><img src="./Images/Icon - Linkedin.png" alt=""></a></li>
@@ -47,7 +58,7 @@
                 <li><a href="#"><img src="./Images/Icon - Twitter.png" alt=""></a></li>
                 <li><a href="#"><img src="./Images/Icon - Medium.png" alt=""></a></li>
             </ul>
-
+        </div>
         
 </section>
 <!-- Headline section end -->
@@ -55,8 +66,8 @@
 <!-- Works section start -->
 
 <section class="works">
-    <h1>My Recent Works</h1>
-    <img src="/Images/Vector.png">
+    <h1>My Recent Works  <hr id="hrh1"></h1><hr>
+
     <div class="placeholder-image"></div>
 
     <h2>Multi-Post Stories</h2>
@@ -101,7 +112,7 @@
     <button class="btnb">BOOTSTRAP</button>
     <button class="btnr">RUBY</button>
    </div>
-   <a href="#"><button class="try"><span>See Project</span></button></a>
+   <a href="#"><button class="orange1"><span>See Project</span></button></a>
 </section>
 
 <!-- Section Professional Art end -->
@@ -129,16 +140,19 @@
     <img class="v-white" src="/Images/Vector.png">
 
     <div class="prog">
-        <h2 class="mainh1"><img src="./Images/Rectangle 55.png" alt="">Language</h2>
+        
         <ul class="progli">
+            <li><h2 class="mainh1"><img src="./Images/Rectangle 55.png" alt="">Language</h2></li>
             <li>Javascript</li>
             <li>Ruby</li>
             <li>Html</li>
             <li>Css</li>
+            <li></li>
         </ul>
 
-        <h2 class="mainh1"><img src="./Images/square.png" alt="">Frameworks</h2>
+        
         <ul class="progli">
+            <li><h2 class="mainh1"><img src="./Images/square.png" alt="">Frameworks</h2></li>
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
             <li>RSPec</li>
@@ -146,9 +160,10 @@
             <li>Selenium</li>
         </ul>
 
-        <h2 class="mainh1"><img src="./Images/circle.png" alt="">Skills</h2>
+        
 
         <ul class="progli">
+            <li><h2 class="mainh1"><img src="./Images/circle.png" alt="">Skills</h2></li>
             <li >Codekit</li>
             <li>Github</li>
             <li>Codepen</li>
@@ -165,12 +180,14 @@
         so if you'd like to chat please get in touch.</h3>
   
     <form action="https://formspree.io/f/maykrgwn" target="_blank" method="POST">
-        <input name="fullName" type="text" placeholder="Full Name" maxlength="30" required>
-        <hr>
+        <input class="sm-app" input name="fullName" type="text" placeholder="Full Name" maxlength="30" required>
+       <p> <input class="dis-input" name="firstName" type="text" placeholder="Full Name" maxlength="30" required>
+        <input class="dis-input" input name="lastName" type="text" placeholder="Last Name" maxlength="30" required></p>
+        
         <input name="Email" id="email" type="email" placeholder="Your email" required>
-        <hr>
+       
         <textarea placeholder="textarea" name="message" minlength="10" maxlength="500" required>Enter text here</textarea>
-        <br>
+       
         <button type="submit">Get in Touch</button>
     </form>
   
