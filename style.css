@@ -65,10 +65,10 @@ a {
   font-size: 17px;
 }
 
-/* .works a {
+.works a {
   display: flex;
   justify-content: center;
-} */
+}
 
 .navA a:hover {
   background-color: var(--light-color);
@@ -393,11 +393,6 @@ hr {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.works a {
-  display: flex;
-  justify-content: center;
 }
 
 .orange1 {
