@@ -1009,6 +1009,10 @@ form button {
     flex-grow: 0;
   }
 
+  form p {
+    width: 100%;
+  }
+
   .headline p {
     flex-wrap: wrap;
     font-style: normal;
@@ -1068,7 +1072,6 @@ form button {
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
     align-items: center;
     color: var(--dark);
     flex: none;
@@ -1649,10 +1652,6 @@ form button {
 
   .sm-app {
     display: none;
-  }
-
-  form p {
-    width: 100%;
   }
 
   form .dis-input {
