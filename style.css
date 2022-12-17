@@ -934,6 +934,11 @@ form button {
     justify-content: center;
   }
 
+  .works a {
+    display: flex;
+    justify-content: center;
+  }
+
   .navA a:hover {
     background-color: var(--light-color);
     color: black;
@@ -965,6 +970,15 @@ form button {
 
   .chi {
     flex: 10%;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
   }
 
   .chi .icons {
@@ -1022,15 +1036,6 @@ form button {
     color: var(--white);
     width: 375px;
     flex-grow: 0;
-  }
-
-  .icons {
-    flex-wrap: wrap;
-    padding: 5px;
-    font-size: 22px;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
   }
 
   .icons li {
@@ -1270,11 +1275,6 @@ form button {
     flex-grow: 0;
   }
 
-  .works a {
-    display: flex;
-    justify-content: center;
-  }
-
   .orange1 {
     display: flex;
     flex-direction: row;
@@ -1508,23 +1508,6 @@ form button {
     order: 0;
     flex-grow: 0;
     margin-bottom: 100px;
-  }
-
-  .about div p {
-    width: 40%;
-    height: 148px;
-
-    /* font-family: 'Inter'; */
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--white2);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    float: left;
   }
 
   .about a {
