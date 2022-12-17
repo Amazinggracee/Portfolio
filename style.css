@@ -933,12 +933,7 @@ form button {
     display: flex;
     justify-content: center;
   }
-
-  .works a {
-    display: flex;
-    justify-content: center;
-  }
-
+  
   .navA a:hover {
     background-color: var(--light-color);
     color: black;
@@ -1475,24 +1470,6 @@ form button {
     background-position: right center;
     background-size: 50%;
     background-repeat: no-repeat;
-  }
-
-  .about div h1 {
-    width: 100%;
-    height: 79px;
-
-    /* font-family: 'Crete Round'; */
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 65px;
-    line-height: 88px;
-    letter-spacing: 0.37px;
-    color: var(--orange);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-bottom: 100px;
   }
 
   .about a {
