@@ -1496,7 +1496,7 @@ form button:hover {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .pro-h1 {
     margin-top: 200px;
     margin-bottom: 20px;
@@ -1517,7 +1517,7 @@ form button:hover {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .pro-h3 {
     width: 100%;
     height: auto;
@@ -1533,7 +1533,7 @@ form button:hover {
     flex-grow: 0;
     padding: 20px;
   }
-  
+
   .btn3 {
     display: grid;
     grid-template:
@@ -1545,7 +1545,7 @@ form button:hover {
     margin-bottom: 0;
     justify-content: center;
   }
-  
+
   .btn3 .btnh {
     display: flex;
     flex: none;
@@ -1562,7 +1562,7 @@ form button:hover {
     box-sizing: border-box;
     padding: 10px 12px;
   }
-  
+
   .btn3 .btnb {
     display: flex;
     flex: none;
@@ -1579,7 +1579,7 @@ form button:hover {
     box-sizing: border-box;
     padding: 10px 12px;
   }
-  
+
   .btn3 .btnr {
     display: flex;
     flex: none;
@@ -1596,7 +1596,7 @@ form button:hover {
     box-sizing: border-box;
     padding: 10px 12px;
   }
-  
+
   .pro-art .orange1 {
     width: 100%;
     margin-right: 10%;
