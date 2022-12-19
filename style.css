@@ -667,7 +667,7 @@ hr {
   margin-top: 20px;
 }
 
-/* Styling for About Section */
+/* ----------------------Styling for About Section----------------------- */
 
 .about {
   display: grid;
@@ -784,7 +784,7 @@ hr {
   justify-content: center;
 }
 
-/* ----------styling Contact section----------- */
+/* -------------------styling Contact section------------------- */
 
 .contact1 {
   background-color: var(--white);
@@ -897,15 +897,18 @@ form button:hover {
   100% { background-color: #cfd8dc; }
 }
 
-/* Styling footer */
+/* ----------------------------------Styling footer------------------------------- */
 
 .dark-icons {
   display: flex;
   justify-content: center;
 }
 
+/* -------------------------------------Media Query------------------------------------------ */
+
+
 @media (min-width: 768px) {
-  /* media query for Nav Menu */
+  /* ---------------------media query for Nav Menu------------------------------- */
 
   a {
     text-decoration: none;
@@ -967,7 +970,7 @@ form button:hover {
     color: var(--white);
   }
 
-  /* Media query for headlines */
+  /* ---------------------------------Media query for headlines------------------------------ */
 
   .headline {
     display: flex;
@@ -1060,7 +1063,7 @@ form button:hover {
     padding: 5px;
   }
 
-  /* -------Media query for works------- */
+  /* ------------------------------Media query for works--------------------------------- */
 
   .works {
     display: grid;
@@ -1636,7 +1639,7 @@ form button:hover {
     background-repeat: no-repeat;
   }
 
-  /* ----------Media Query for language */
+  /* ----------Media Query for language----------------------- */
 
   .prog-lang {
     display: grid;
