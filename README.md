@@ -51,6 +51,7 @@ The entire project was built with only HTML5 and CSS3.
 - **[key_feature_1]** My Porfolio, built with CSS and Html.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: Desktop Version.
+- **[key_feature_4]** Portfolio: accessibility.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
