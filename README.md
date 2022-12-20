@@ -106,6 +106,12 @@ In order to run this project you need:
 - Twitter: [@ramgt001](https://twitter.com/home)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
+ 👤 **Author3**
+
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
+- LinkedIn: [Adarsh pathatk](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* colors used in this project */
 
 :root {
@@ -40,6 +44,8 @@ a {
   height: auto;
   color: var(--white2);
   border-radius: 10px;
+  position: fixed;
+  margin-top: -49px;
 }
 
 .navA {
@@ -96,6 +102,7 @@ a {
   background-size: 150px;
   background-repeat: no-repeat;
   background-blend-mode: 120%;
+  margin-top: 49px;
 }
 
 .headline h1 {
@@ -457,6 +464,7 @@ hr {
   left: 252px;
   background: var(--white2);
   border: 1px solid var(--orange2);
+  color: var(--orange2);
 }
 
 .orange1 span:hover {
@@ -888,13 +896,15 @@ form button:hover {
   background-color: #172b4d;
   animation-name: peer;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes peer {
   0% { background-color: #172b4d; }
   25% { background-color: #396df2; }
   50% { background-color: #7f8cff; }
-  100% { background-color: #cfd8dc; }
+  75% { background-color: #cfd8dc; }
+  100% {background-color: #172b4d; }
 }
 
 /* ----------------------------------Styling footer------------------------------- */
@@ -920,6 +930,7 @@ form button:hover {
     height: auto;
     color: var(--white2);
     border-radius: 10px;
+    margin-top: -90px;
   }
 
   .navA {
@@ -986,6 +997,7 @@ form button:hover {
     background-size: 300px;
     background-repeat: no-repeat;
     background-blend-mode: 120%;
+    margin-top: 90px;
   }
 
   .chi {
