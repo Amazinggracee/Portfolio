@@ -67,6 +67,21 @@ The entire project was built with only HTML5 and CSS3.
 ## 💻 Getting Started <a name="getting-started">Portfolio Repository</a>
 
 This will guide one on how to make responsive Portfolio that is accessible with any screen size.
+
+Accessibility List:
+
+List all points that you have checked, i.e:
+1. Page titles
+2. Image text alternatives** (<img alt="alt text">)
+3. Text headings
+4. Color contrast
+5. Resize
+6. Interaction (labels are optional but recommended as voiceover tools can read them, and should be set as invisible to match the Figma design)
+7. Moving content
+8. Multimedia
+9. The basic structure of the page
+
+
 ### Prerequisites
 
 In order to run this project you need: 
