@@ -675,6 +675,44 @@ hr {
   flex-grow: 0;
 }
 
+.orange2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: var(--orange2);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-align: center;
+  color: var(--dark);
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.orange2:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: var(--light-color);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-align: center;
+  color: var(--orange2);
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* -------------------styling Prog Lang section---------- */
 
 .prog-lang {
