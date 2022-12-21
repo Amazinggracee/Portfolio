@@ -916,23 +916,7 @@ form button:hover {
     text-decoration: none;
     font-size: 17px;
   }
-
-  .navA a:hover {
-    background-color: var(--white);
-    color: var(--grey);
-  }
-
-  .about a {
-    float: left;
-    margin-right: 97%;
-  }
-
   
-  .works a {
-    display: flex;
-    justify-content: center;
-  }
-
   .navA a {
     float: left;
     color: var(--white);
@@ -941,6 +925,20 @@ form button:hover {
     font-size: 17px;
   }
 
+  .works a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about a {
+    float: left;
+    margin-right: 97%;
+  }
+
+  .navA a:hover {
+    background-color: var(--white);
+    color: var(--grey);
+  }
 
   #myLinks a {
     color: var(--lightgrey);
