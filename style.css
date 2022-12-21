@@ -472,6 +472,15 @@ hr {
   border-radius: 0px;
 }
 
+.pro-art .orange1 {
+  width: 100%;
+  margin-right: 10%;
+  margin-left: 0;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .art-work1 a .orange1 {
   margin-top: 350px;
 }
@@ -604,15 +613,6 @@ hr {
   align-items: center;
   box-sizing: border-box;
   padding: 10px;
-}
-
-.pro-art .orange1 {
-  width: 100%;
-  margin-right: 10%;
-  margin-left: 0;
-  text-align: center;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 /* ----------------------Styling for About Section----------------------- */
@@ -845,18 +845,22 @@ form button:hover {
     background-color: var(--lightgrey);
     color: var(--orange2);
   }
+
   25% {
     background-color: var(--orange3);
     color: var(--white2);
   }
+
   50% {
     background-color: var(--orange2);
     color: var(--medium-grey);
   }
+
   75% {
     background-color: var(--orange);
     color: var(--grey2);
   }
+
   100% {
     background-color: var(--medium-grey);
     color: var(--orange3);
@@ -1353,10 +1357,19 @@ form button:hover {
     background-size: cover;
     height: 386px;
     width: 30%;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
     margin-left: 10px;
+  }
+
+  .pro-art .orange1 {
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
   }
 
   .art-work1 a .orange1 {
@@ -1371,8 +1384,8 @@ form button:hover {
     height: 386px;
     width: 30%;
     left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    top: 0;
+    border-radius: 0;
     margin-left: 10px;
   }
 
@@ -1383,8 +1396,8 @@ form button:hover {
     background-size: cover;
     height: 386px;
     width: 30%;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 0px;
     margin-left: 10px;
   }
@@ -1396,9 +1409,9 @@ form button:hover {
     background-size: cover;
     height: 386px;
     width: 30%;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
     margin-left: 10px;
   }
 
@@ -1499,15 +1512,6 @@ form button:hover {
     align-items: center;
     box-sizing: border-box;
     padding: 5px;
-  }
-
-  .pro-art .orange1 {
-    width: 100%;
-    margin-right: 10%;
-    margin-left: 0;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
   }
 
   /* -----------Media query for About--------- */
