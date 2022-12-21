@@ -81,6 +81,15 @@ a {
   color: var(--white);
 }
 
+#myLinks a {
+color: var(--lightgrey);
+}
+
+#myLinks a:hover {
+  color: var(--grey);
+  background: var(--lightgrey);
+  }
+
 .active {
   background-color: var(--grey);
   color: var(--white);
@@ -908,6 +917,15 @@ form button:hover {
     font-size: 17px;
   }
 
+  #myLinks a {
+    color: var(--lightgrey);
+    }
+    
+    #myLinks a:hover {
+      color: var(--grey);
+      background: var(--lightgrey);
+      }
+
   .navA a {
     float: left;
     color: var(--white);
@@ -931,8 +949,8 @@ form button:hover {
   }
 
   .navA a:hover {
-    background-color: var(--grey2);
-    color: var(--orange);
+    background-color: var(--white);
+    color: var(--grey);
   }
 
   .active {
