@@ -82,7 +82,7 @@ a {
 }
 
 .active {
-  background-color: var(--dark);
+  background-color: var(--grey);
   color: var(--white);
 }
 
@@ -931,12 +931,12 @@ form button:hover {
   }
 
   .navA a:hover {
-    background-color: var(--lightgrey);
+    background-color: var(--grey2);
     color: var(--orange);
   }
 
   .active {
-    background-color: var(--dark);
+    background-color: var(--grey);
     color: var(--white);
   }
 
