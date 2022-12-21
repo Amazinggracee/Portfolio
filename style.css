@@ -833,18 +833,19 @@ form button {
 form button:hover {
   width: 150px;
   height: 50px;
-  background-color: #172b4d;
+  background-color: var(--lightgrey);
+  color: var(--orange2);
   animation-name: peer;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
 @keyframes peer {
-  0% { background-color: #172b4d; }
-  25% { background-color: #396df2; }
-  50% { background-color: #7f8cff; }
-  75% { background-color: #cfd8dc; }
-  100% { background-color: #172b4d; }
+  0% { background-color: var(--lightgrey); color: var(--orange2); }
+  25% { background-color: var(--orange3); color: var(--white2); }
+  50% { background-color: var(--orange2); color: var(--medium-grey); }
+  75% { background-color: var(--orange); color: var(--grey2); }
+  100% { background-color: var(--medium-grey); color: var(--orange3); }
 }
 
 /* ----------------------------------Styling footer------------------------------- */
