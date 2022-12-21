@@ -82,13 +82,13 @@ a {
 }
 
 #myLinks a {
-color: var(--lightgrey);
+  color: var(--lightgrey);
 }
 
 #myLinks a:hover {
   color: var(--grey);
   background: var(--lightgrey);
-  }
+}
 
 .active {
   background-color: var(--grey);
@@ -917,14 +917,21 @@ form button:hover {
     font-size: 17px;
   }
 
-  #myLinks a {
-    color: var(--lightgrey);
-    }
-    
-    #myLinks a:hover {
-      color: var(--grey);
-      background: var(--lightgrey);
-      }
+  .navA a:hover {
+    background-color: var(--white);
+    color: var(--grey);
+  }
+
+  .about a {
+    float: left;
+    margin-right: 97%;
+  }
+
+  
+  .works a {
+    display: flex;
+    justify-content: center;
+  }
 
   .navA a {
     float: left;
@@ -934,23 +941,18 @@ form button:hover {
     font-size: 17px;
   }
 
+
+  #myLinks a {
+    color: var(--lightgrey);
+  }
+
+  #myLinks a:hover {
+    color: var(--grey);
+    background: var(--lightgrey);
+  }
+
   .navA .icon i {
     display: none;
-  }
-
-  .works a {
-    display: flex;
-    justify-content: center;
-  }
-
-  .about a {
-    float: left;
-    margin-right: 97%;
-  }
-
-  .navA a:hover {
-    background-color: var(--white);
-    color: var(--grey);
   }
 
   .active {
