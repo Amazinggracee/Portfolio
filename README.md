@@ -30,6 +30,8 @@
 
 Portfolio: desktop version.
 
+# 📖 [Online link porfolio] <a name="about-project">https://amazinggracee.github.io/Portfolio/</a>
+
 In this project, I built the desktop version of my portfolio using media query:
 - [ ] Follow GitHub Flow
 - [ ] Fix Linters Errors
@@ -59,7 +61,7 @@ The entire project was built with only HTML5 and CSS3.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/Amazinggracee/Portfolio)
+- [Live Demo Link](https://amazinggracee.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
