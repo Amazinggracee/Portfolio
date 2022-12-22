@@ -53,6 +53,7 @@ The entire project was built with only HTML5 and CSS3.
 - **[key_feature_1]** My Porfolio, built with CSS and Html.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: Desktop Version.
+- **[key_feature_4]** Portfolio: accessibility.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,6 +70,21 @@ The entire project was built with only HTML5 and CSS3.
 ## 💻 Getting Started <a name="getting-started">Portfolio Repository</a>
 
 This will guide one on how to make responsive Portfolio that is accessible with any screen size.
+
+Accessibility List:
+
+List all points that you have checked, i.e:
+1. Page titles
+2. Image text alternatives** (<img alt="alt text">)
+3. Text headings
+4. Color contrast
+5. Resize
+6. Interaction (labels are optional but recommended as voiceover tools can read them, and should be set as invisible to match the Figma design)
+7. Moving content
+8. Multimedia
+9. The basic structure of the page
+
+
 ### Prerequisites
 
 In order to run this project you need: 
@@ -92,6 +108,12 @@ In order to run this project you need:
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
 - Twitter: [@ramgt001](https://twitter.com/home)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
+ 👤 **Author3**
+
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
+- LinkedIn: [Adarsh pathatk](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
