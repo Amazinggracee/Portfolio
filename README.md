@@ -59,9 +59,9 @@ The entire project was built with only HTML5 and CSS3.
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">demo</a>
 
-- [Live Demo Link](https://amazinggracee.github.io/Portfolio/)
+- [Live Demo Link](https://www.loom.com/share/91492309999c418e8c1446289b9c9765)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
