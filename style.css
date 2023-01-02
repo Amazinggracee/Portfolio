@@ -40,6 +40,10 @@ html {
   height: 90px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu li a {
   color: white;
 }
@@ -101,11 +105,7 @@ i {
   padding-right: 369px;
   font-size: 40px;
   margin-left: 30px;
-  
-}
-
-a {
-  text-decoration: none;
+  width: 300px;
 }
 
 .works a {
@@ -968,6 +968,16 @@ form button:hover {
     margin-left: 30px;
   }
 
+  .about a {
+    float: left;
+    margin-right: 97%;
+  }
+
+  .works a {
+    display: flex;
+    justify-content: center;
+  }
+
   .container .home-div a {
     color: var(--white);
   }
@@ -996,16 +1006,6 @@ form button:hover {
 
   .btn-hamburger {
     display: none;
-  }
-
-  .works a {
-    display: flex;
-    justify-content: center;
-  }
-
-  .about a {
-    float: left;
-    margin-right: 97%;
   }
 
   /* ---------------------------------Media query for headlines------------------------------ */
