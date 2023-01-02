@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <h3 id = "readme-top"><b>Portfolio README </b></h3>
+  <h3 id = "readme-top"><b>PORTFOLIO README </b></h3>
 
 </div>
 
