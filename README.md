@@ -191,7 +191,7 @@ I would like to thank Microverse Students that I have collaborated with since I 
 
 <!-- LICENSE -->
 
-## 📝 License <a href= "https://github.com/Amazinggracee/Portfolio/blob/responsive-b/License.txt" name="license.txt">LICENCE</a>
+## 📝<a href= "https://github.com/Amazinggracee/Portfolio/blob/responsive-b/License.txt" name="license.txt">LICENCE</a>
 
 This project is [MIT](./LICENSE) licensed.
 
