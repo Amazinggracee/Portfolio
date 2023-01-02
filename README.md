@@ -1,10 +1,7 @@
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./Images/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3 id = "readme-top"><b>Portfolio README Template</b></h3>
+  <h3 id = "readme-top"><b>Portfolio README </b></h3>
 
 </div>
 
