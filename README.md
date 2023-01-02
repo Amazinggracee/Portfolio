@@ -86,7 +86,7 @@ Accessibility List:
 
 List all points that you have checked, i.e:
 1. Page titles
-2. Image text alternatives** (<img alt="alt text">)
+2. Image text alternatives
 3. Text headings
 4. Color contrast
 5. Resize
@@ -94,6 +94,9 @@ List all points that you have checked, i.e:
 7. Moving content
 8. Multimedia
 9. The basic structure of the page
+10. Use basic JavaScript syntax.
+11. Use JavaScript to manipulate DOM elements.
+12. Use JavaScript events.
 
 
 ### Prerequisites
