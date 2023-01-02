@@ -132,6 +132,12 @@ In order to run this project you need:
 - Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
 - LinkedIn: [Adarsh pathatk](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
 
+ 👤 **Author4**
+
+- GitHub: [@Bigizi](https://github.com/Bigizi)
+- LinkedIn: [Bigizi Nduwayo Crispin](https://www.linkedin.com/in/bigizi-nduwayo-crispin-74b534227/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
