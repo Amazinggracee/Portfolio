@@ -28,11 +28,13 @@
 
 # 📖 [porfolio] <a name="about-project">https://github.com/Amazinggracee/Portfolio</a>
 
-Portfolio: desktop version.
+My website Portfolio.
+
+This is my design portfolio where I share some of my design work.
 
 # 📖 [Online link porfolio] <a name="about-project">https://amazinggracee.github.io/Portfolio/</a>
 
-In this project, I built the desktop version of my portfolio using media query:
+In this project:
 - [ ] Use basic JavaScript syntax.
 - [ ] Use JavaScript to manipulate DOM elements.
 - [ ] Use JavaScript events.
@@ -47,20 +49,15 @@ In this project, I built the desktop version of my portfolio using media query:
 > - [ ] When the user clicks (or taps) any of the mobile menu options, the mobile menu    disappears.
 > - [ ] When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
+# 🛠 Built With <a name="built-with">Technologies</a>
 
-
-
-
-
-Portfolio project is a project about me as a Website developer, the projects I have handled and also hoe to contact me when you need my services.
-
-# 🛠 Built With <a name="built-with">HTML and CSS</a>
-
-## Tech Stack <a name="tech-stack">HTML and CSS</a>
+- HTML
+- CSS
+- JavaScript
 
 ### Tech Stack <a name="tech-stack">HTML, CSS and, JavaScript </a>
 
-The entire project was built with only HTML5 and CSS3.
+The entire project was built with only HTML5, CSS3 and, JavaScript.
 
 <!-- Features -->
 
@@ -194,7 +191,7 @@ I would like to thank Microverse Students that I have collaborated with since I 
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a href= "" name="license.txt">LICENCE</a>
 
 This project is [MIT](./LICENSE) licensed.
 
