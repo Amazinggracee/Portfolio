@@ -33,16 +33,32 @@ Portfolio: desktop version.
 # 📖 [Online link porfolio] <a name="about-project">https://amazinggracee.github.io/Portfolio/</a>
 
 In this project, I built the desktop version of my portfolio using media query:
-- [ ] Follow GitHub Flow
-- [ ] Fix Linters Errors
-- [ ] Use Grid and FlexBox
-- [ ] Follow HTML and CSS best practices
+- [ ] Use basic JavaScript syntax.
+- [ ] Use JavaScript to manipulate DOM elements.
+- [ ] Use JavaScript events.
+- [ ] Make sure that there are no linter errors.
+- [ ] Make sure that you used the correct GitHub flow.
+- [ ] Make sure that you documented your work in a professional way.
+- [ ] Follow our list of best practices for HTML & CSS.
+- [ ] Follow our list of best practices for JavaScript.
+- [ ] In mobile, implement the following features:
+> - [ ] When the user clicks (or taps) the hamburger button, the mobile menu appears.
+> - [ ] When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+> - [ ] When the user clicks (or taps) any of the mobile menu options, the mobile menu    disappears.
+> - [ ] When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+
+
+
+
+
 
 Portfolio project is a project about me as a Website developer, the projects I have handled and also hoe to contact me when you need my services.
 
-## 🛠 Built With <a name="built-with">HTML and CSS</a>
+# 🛠 Built With <a name="built-with">HTML and CSS</a>
 
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
+## Tech Stack <a name="tech-stack">HTML and CSS</a>
+
+### Tech Stack <a name="tech-stack">HTML, CSS and, JavaScript </a>
 
 The entire project was built with only HTML5 and CSS3.
 
@@ -54,6 +70,7 @@ The entire project was built with only HTML5 and CSS3.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: Desktop Version.
 - **[key_feature_4]** Portfolio: accessibility.
+- **[key_feature_5]** Portfolio: Portfolio - mobile menu with javaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +106,7 @@ List all points that you have checked, i.e:
 
 In order to run this project you need: 
 1. A computer with a code writer, I recommend Visual Studio Code.
-2. A pre-knowledge of HTML and CSS.
+2. A pre-knowledge of HTML, CSS and, JavaScript.
 
 <!-- AUTHORS -->
 
@@ -121,8 +138,8 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]** Add CSS Animations
-- [ ] **[new_feature_2]** Add JavaScript functionalities
+- [ ] **[new_feature_1]** More CSS Animations 
+- [ ] **[new_feature_2]** More JavaScript functionalities
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

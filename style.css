@@ -84,9 +84,24 @@ i {
 .showMenu {
   transform: translateY(0);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 12px;
+  background-color: var(--dark);
+  height: 700px;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  padding-top: 90px;
+  align-items: left;
+}
+
+.showMenu .menuItem {
+  border-bottom: 0.2px solid var(--white);
+  padding-left: 50px;
+  padding-right: 369px;
+  font-size: 40px;
   margin-left: 30px;
+  
 }
 
 a {
