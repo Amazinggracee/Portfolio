@@ -105,12 +105,19 @@ i {
 }
 
 .showMenu .menuItem {
-  border-bottom: 0.2px solid var(--white);
+  border-bottom: 0.06px solid var(--white);
   padding-left: 50px;
-  padding-right: 369px;
+  padding-right: 27%;
   font-size: 40px;
   margin-left: 30px;
-  width: 300px;
+}
+
+.showMenu .about-2 {
+  border-bottom: 0.06px solid var(--white);
+  padding-left: 50px;
+  padding-right: 35%;
+  font-size: 40px;
+  margin-left: 30px;
 }
 
 /* -------------------Style for Headline--------------------- */
