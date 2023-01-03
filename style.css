@@ -31,7 +31,7 @@ html {
   --grey2: #5b5957;
 }
 
-/* Style for Header */
+/* ---------------------------Style for Header---------------------------------------- */
 
 .container {
   position: fixed;
@@ -60,6 +60,7 @@ a {
 
 .container .home-div a {
   color: var(--white);
+  font-size: 35px;
 }
 
 .menu-list {
@@ -86,8 +87,15 @@ i {
   color: var(--white);
 }
 
+.btn-hamburger .burgerIcon {
+  font-size: 50px;
+  padding-right: 10%;
+}
+
 .btn-hamburger .closeIcon {
   display: none;
+  font-size: 50px;
+  padding-right: 10%;
 }
 
 .showMenu {
@@ -96,29 +104,26 @@ i {
   flex-direction: column;
   gap: 12px;
   background-color: var(--dark);
-  height: 700px;
   top: 0;
   position: absolute;
+  height: 100vh;
   width: 100%;
-  padding-top: 90px;
+  border-radius: 0px;
+  padding-top: 70px;
   align-items: left;
 }
 
 .showMenu .menuItem {
-  border-bottom: 0.06px solid var(--white);
-  padding-left: 50px;
-  padding-right: 27%;
+  padding-left: 70px;
   font-size: 25px;
-  margin-left: 30px;
+  margin-top: 70px;
 }
 
-.showMenu .about-2 {
-  border-bottom: 0.06px solid var(--white);
-  padding-left: 50px;
-  padding-right: 35%;
-  font-size: 25px;
-  margin-left: 30px;
+.showNot {
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
 
 /* -------------------Style for Headline--------------------- */
 
@@ -128,7 +133,7 @@ i {
   text-align: left;
   padding: 120px 24px;
   height: auto;
-  width: auto;
+  width: 100%;
   gap: 12px;
   background-color: var(--dark);
   background-image: url("./Images/Illustration.png");
@@ -138,29 +143,29 @@ i {
   background-blend-mode: 120%;
 }
 
-.headline h1 {
-  /* font-family: 'Crete Round'; */
-
+#home .headline-div h1 {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
+  font-size: 50px;
+  line-height: 44px;
+  letter-spacing: 0.34px;
   color: var(--orange);
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-bottom: 20px;
+  padding: 5%;
+  margin-right: 8%;
+  gap: 8px;
+  margin-top: 30%;
 }
 
-.headline h2 {
-  width: 327px;
-  height: 27px;
-
-  /* font-family: 'Roboto'; */
-
+#home .headline-div h2 {
+  width: 80%;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   display: flex;
@@ -169,9 +174,10 @@ i {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding: 8%;
 }
 
-.headline p {
+#home .headline-div p {
   flex-wrap: wrap;
   font-style: normal;
   font-weight: 400;
@@ -180,23 +186,27 @@ i {
   color: var(--white);
   width: auto;
   flex-grow: 0;
-  margin-top: 20px;
+  padding: 4%;
 }
 
 .icons {
   flex-wrap: wrap;
-  padding: 5px;
-  font-size: 22px;
+  padding: 5%;
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
 
 .icons li {
-  padding: 5px;
+  padding: 5%;
 }
 
-/* style for Works Section */
+.icons li a img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ------------------------style for Works Section----------------------------- */
 
 .works {
   display: grid;
@@ -209,7 +219,7 @@ i {
   background-color: var(--white);
 }
 
-.works h1 {
+.works h2 {
   justify-content: space-around;
   width: 100%;
   height: 83px;
@@ -236,6 +246,8 @@ i {
 
 hr {
   display: block;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .placeholder-image {
@@ -249,7 +261,7 @@ hr {
   flex-grow: 0;
 }
 
-.works h2 {
+.works h3 {
   margin-top: 10px;
   margin-bottom: 20px;
   justify-content: space-around;
@@ -257,9 +269,6 @@ hr {
   width: 80%;
   height: 36px;
   margin-left: 10px;
-
-  /* font-family: 'Crete Round'; */
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -954,6 +963,8 @@ form button:hover {
   justify-content: center;
 }
 
+
+
 /* -------------------------------------Media Query------------------------------------------ */
 
 @media (min-width: 768px) {
@@ -972,7 +983,7 @@ form button:hover {
 
   .container .home-div {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 10%;
   }
 
   .about a {
@@ -996,7 +1007,7 @@ form button:hover {
   .menu-list {
     display: flex;
     flex-direction: row;
-    margin-left: 70%;
+    margin-left: 60%;
     gap: 12px;
     position: fixed;
     transition: transform 0.2s;
@@ -1008,18 +1019,10 @@ form button:hover {
     color: white;
     list-style: none;
     padding-top: 30px;
-    padding-right: 20%;
+    padding-right: 10%;
   }
 
   .showMenu .menuItem {
-    border-bottom: none;
-    padding-left: 0;
-    padding-right: 5%;
-    font-size: 25px;
-    margin-left: 0;
-  }
-
-  .showMenu .about-2 {
     border-bottom: none;
     padding-left: 0;
     padding-right: 5%;
@@ -1045,7 +1048,7 @@ form button:hover {
     background-color: var(--dark);
     background-image: url("./Images/Illustration-header.png");
     background-position: right center;
-    background-size: 300px;
+    background-size: 350px;
     background-repeat: no-repeat;
     background-blend-mode: 120%;
   }
@@ -1055,9 +1058,9 @@ form button:hover {
   }
 
   .icons {
+    margin-top: 350px;
     flex-wrap: wrap;
     padding: 5px;
-    font-size: 22px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -1074,50 +1077,54 @@ form button:hover {
   }
 
   .headline h1 {
-    /* font-family: 'Crete Round'; */
-
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
+    font-size: 50px;
+    line-height: 44px;
+    letter-spacing: 0.34px;
     color: var(--orange);
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-bottom: 20px;
+    padding: 5%;
+    margin-right: 10%;
+    gap: 8px;
+    margin-top: 30%;
+    width: 60%;
   }
 
   .headline h2 {
-    width: 327px;
-    height: 27px;
-
-    /* font-family: 'Roboto'; */
-
+    width:250px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 22px;
     display: flex;
     align-items: center;
     color: var(--white2);
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding: 0;
   }
 
   form p {
     width: 100%;
   }
 
-  .headline p {
+   .headline .headline-div p {
     flex-wrap: wrap;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--white);
-    width: 375px;
+    width: 30%;
     flex-grow: 0;
+    margin-right: 40%;
   }
 
   .icons li {
@@ -1140,7 +1147,7 @@ form button:hover {
     background-size: 45% 55%;
     background-repeat: no-repeat;
     background-blend-mode: 120%;
-    margin-left: 80px;
+    margin-left: 30px;
   }
 
   .placeholder-image {
@@ -1152,9 +1159,6 @@ form button:hover {
     justify-content: space-around;
     width: 100%;
     height: 83px;
-
-    /* font-family: 'Crete Round'; */
-
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
