@@ -108,7 +108,7 @@ i {
   position: absolute;
   height: 100vh;
   width: 100%;
-  border-radius: 0px;
+  border-radius: 0;
   padding-top: 70px;
   align-items: left;
 }
