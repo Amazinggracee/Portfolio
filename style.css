@@ -82,7 +82,7 @@ i {
   right: 16px;
   padding: 4px;
   border: none;
-  background: var(--coffee);
+  background: none;
   cursor: pointer;
   color: var(--white);
 }
@@ -103,7 +103,7 @@ i {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-color: var(--dark);
+  background-color: var(--grey);
   top: 0;
   position: absolute;
   height: 100vh;
