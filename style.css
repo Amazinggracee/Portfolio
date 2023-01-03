@@ -179,6 +179,21 @@ i {
   margin-bottom: 10px;
 }
 
+.about div h2 {
+  width: 100%;
+  height: 79px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: var(--orange);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 100px;
+}
+
 #home .headline-div h2 {
   width: 80%;
   font-style: normal;
@@ -192,19 +207,6 @@ i {
   order: 0;
   flex-grow: 0;
   padding: 8%;
-}
-
-.about div p {
-  width: 100%;
-  height: 148px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white2);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .works p {
@@ -221,6 +223,19 @@ i {
   line-height: 24px;
   color: var(--navy-blue);
   flex: none;
+  flex-grow: 0;
+}
+
+.about div p {
+  width: 100%;
+  height: 148px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white2);
+  flex: none;
+  order: 1;
   flex-grow: 0;
 }
 
@@ -682,21 +697,6 @@ hr {
   background-repeat: no-repeat;
 }
 
-.about div h2 {
-  width: 100%;
-  height: 79px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 65px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: var(--orange);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-bottom: 100px;
-}
-
 .orange2 {
   display: flex;
   flex-direction: row;
@@ -1093,19 +1093,6 @@ form button:hover {
     width: 100%;
   }
 
-  .about div p {
-    width: 50%;
-    height: 148px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--white2);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
   .works p {
     justify-content: space-around;
     margin-bottom: 20px;
@@ -1120,6 +1107,19 @@ form button:hover {
     flex-grow: 0;
     margin-left: 55%;
     text-align: left;
+  }
+
+  .about div p {
+    width: 50%;
+    height: 148px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white2);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
 
   .headline .headline-div p {
