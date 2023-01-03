@@ -124,7 +124,6 @@ i {
   margin-right: 10%;
 }
 
-
 /* -------------------Style for Headline--------------------- */
 
 .headline {
@@ -144,7 +143,7 @@ i {
 }
 
 #home .headline-div h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   display: flex;
   font-style: normal;
   font-weight: 400;
@@ -963,8 +962,6 @@ form button:hover {
   justify-content: center;
 }
 
-
-
 /* -------------------------------------Media Query------------------------------------------ */
 
 @media (min-width: 768px) {
@@ -1077,7 +1074,7 @@ form button:hover {
   }
 
   .headline h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     font-style: normal;
     font-weight: 400;
@@ -1097,7 +1094,7 @@ form button:hover {
   }
 
   .headline h2 {
-    width:250px;
+    width: 250px;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -1115,7 +1112,7 @@ form button:hover {
     width: 100%;
   }
 
-   .headline .headline-div p {
+  .headline .headline-div p {
     flex-wrap: wrap;
     font-style: normal;
     font-weight: 400;
