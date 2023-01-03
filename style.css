@@ -161,6 +161,24 @@ i {
   margin-top: 30%;
 }
 
+.works h2 {
+  justify-content: space-around;
+  width: 100%;
+  height: 83px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: var(--dark);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 #home .headline-div h2 {
   width: 80%;
   font-style: normal;
@@ -174,6 +192,36 @@ i {
   order: 0;
   flex-grow: 0;
   padding: 8%;
+}
+
+.about div p {
+  width: 100%;
+  height: 148px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white2);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.works p {
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 147px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: var(--navy-blue);
+  flex: none;
+  flex-grow: 0;
 }
 
 #home .headline-div p {
@@ -200,6 +248,15 @@ i {
   padding: 5%;
 }
 
+.works img {
+  width: 100%;
+  height: 1px;
+  border: 1px solid var(--coffee);
+  flex: none;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+
 .icons li a img {
   width: 20px;
   height: 20px;
@@ -216,27 +273,6 @@ i {
   width: auto;
   gap: 12px;
   background-color: var(--white);
-}
-
-.works h2 {
-  justify-content: space-around;
-  width: 100%;
-  height: 83px;
-
-  /* font-family: 'Crete Round'; */
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: var(--dark);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-top: 50px;
-  margin-bottom: 10px;
 }
 
 #hrh1 {
@@ -278,35 +314,6 @@ hr {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.works p {
-  justify-content: space-around;
-  margin-left: 30px;
-  margin-right: 20px;
-  text-align: left;
-  margin-bottom: 20px;
-  width: 90%;
-  height: 147px;
-  font-style: normal;
-
-  /* font-family: 'Inter'; */
-
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 24px;
-  color: var(--navy-blue);
-  flex: none;
-  flex-grow: 0;
-}
-
-.works img {
-  width: 100%;
-  height: 1px;
-  border: 1px solid var(--coffee);
-  flex: none;
-  flex-grow: 0;
-  margin-bottom: 20px;
 }
 
 #grid-case {
@@ -675,19 +682,9 @@ hr {
   background-repeat: no-repeat;
 }
 
-.about h2 {
-  color: var(--orange2);
-  font-size: 35px;
-  margin-bottom: 10px;
-  justify-content: center;
-}
-
-.about div h1 {
+.about div h2 {
   width: 100%;
   height: 79px;
-
-  /* font-family: 'Crete Round'; */
-
   font-style: normal;
   font-weight: 400;
   font-size: 65px;
@@ -698,22 +695,6 @@ hr {
   order: 0;
   flex-grow: 0;
   margin-bottom: 100px;
-}
-
-.about div p {
-  width: 100%;
-  height: 148px;
-
-  /* font-family: 'Inter'; */
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white2);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .orange2 {
@@ -1112,6 +1093,35 @@ form button:hover {
     width: 100%;
   }
 
+  .about div p {
+    width: 50%;
+    height: 148px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white2);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .works p {
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 147px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--navy-blue);
+    flex: none;
+    flex-grow: 0;
+    margin-left: 55%;
+    text-align: left;
+  }
+
   .headline .headline-div p {
     flex-wrap: wrap;
     font-style: normal;
@@ -1198,25 +1208,6 @@ form button:hover {
     color: var(--navy-blue);
     flex: none;
     order: 0;
-    flex-grow: 0;
-    margin-left: 55%;
-    text-align: left;
-  }
-
-  .works p {
-    justify-content: space-around;
-    margin-bottom: 20px;
-    width: 50%;
-    height: 147px;
-    font-style: normal;
-
-    /* font-family: 'Inter'; */
-
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--navy-blue);
-    flex: none;
     flex-grow: 0;
     margin-left: 55%;
     text-align: left;
@@ -1400,22 +1391,6 @@ form button:hover {
     order: 0;
     flex-grow: 0;
     margin-bottom: 100px;
-  }
-
-  .about div p {
-    width: 50%;
-    height: 148px;
-
-    /* font-family: 'Inter'; */
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--white2);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 
   /* ------------Media Query for professional--------- */
