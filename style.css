@@ -226,6 +226,19 @@ i {
   flex-grow: 0;
 }
 
+.works-card p {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+  color: var(--white);
+  margin-top: 84px;
+  margin-bottom: 27px;
+}
+
 .about div p {
   width: 100%;
   height: 148px;
@@ -411,19 +424,6 @@ i {
   font-size: 32px;
   padding-left: 16px;
   margin-top: 2px;
-}
-
-.works-card p {
-  width: 295px;
-  height: 87px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 16px;
-  color: var(--white);
-  margin-top: 84px;
-  margin-bottom: 27px;
 }
 
 .works-ul {
@@ -1644,16 +1644,12 @@ form button:hover {
   }
 
   .main-section {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-rows: repeat(6, 386px);
     width: 350px;
     margin-top: 30px;
     gap: 80px;
-  }
-
-  .main-section {
-    display: flex;
-    flex-direction: column;
   }
 
   .divide {
@@ -1666,11 +1662,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     width: 247px;
-    background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    );
+    background: linear-gradient(180.45deg,rgba(38, 38, 38, 0) 0.75%,rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Img\ Placeholder2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1723,6 +1715,7 @@ form button:hover {
     background-color: rgba(255, 255, 255, 0.24);
     margin-right: -12px;
   }
+
   .works-card button {
     background-color: var(--orange);
     width: 243px;
@@ -1909,7 +1902,7 @@ form button:hover {
     height: 36px;
     width: 116px;
     font-size: 17px;
-    padding: 0px;
+    padding: 0;
     text-align: center;
     margin-top: -18px;
   }
@@ -2541,4 +2534,3 @@ form button:hover {
     color: var(--medium-grey2);
   }
 }
-
