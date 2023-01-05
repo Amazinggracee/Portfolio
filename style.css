@@ -194,6 +194,13 @@ i {
   margin-bottom: 100px;
 }
 
+#popUpSec h2,
+.close-btn {
+  font-size: 20px;
+  color: var(--coffee);
+  padding: 20px;
+}
+
 #home .headline-div h2 {
   width: 80%;
   font-style: normal;
@@ -283,6 +290,11 @@ i {
   flex: none;
   flex-grow: 0;
   margin-bottom: 20px;
+}
+
+.popup-window img {
+  margin-left: 15px;
+  width: 311px;
 }
 
 .icons li a img {
@@ -403,11 +415,7 @@ i {
   display: flex;
   flex-direction: column;
   width: 350px;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  );
+  background: linear-gradient(180.45deg,rgba(38, 38, 38, 0) 0.75%,rgba(38, 38, 38, 0.9) 61.94%);
   background-image: url(./Images/Img\ Placeholder2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -533,11 +541,6 @@ form button {
   top: 80px;
 }
 
-.popup-window img {
-  margin-left: 15px;
-  width: 311px;
-}
-
 .pop-win-text {
   width: 315px;
   margin-left: 15px;
@@ -611,13 +614,6 @@ form button {
 .popUpDiv {
   display: flex;
   flex-direction: row;
-}
-
-#popUpSec h2,
-.close-btn {
-  font-size: 20px;
-  color: var(--coffee);
-  padding: 20px;
 }
 
 #popUpSec #pop-lang {
