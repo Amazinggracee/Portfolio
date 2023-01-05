@@ -161,7 +161,7 @@ i {
   margin-top: 30%;
 }
 
-.works h2 {
+/* .works h2 {
   justify-content: space-around;
   width: 100%;
   height: 83px;
@@ -177,7 +177,7 @@ i {
   flex-grow: 0;
   margin-top: 230px;
   margin-bottom: 10px;
-}
+} */
 
 .about div h2 {
   width: 100%;
@@ -246,7 +246,7 @@ i {
   margin-bottom: 27px;
 }
 
-.about div p {
+.about .check p {
   width: 100%;
   height: 148px;
   font-style: normal;
@@ -1514,6 +1514,19 @@ form button:hover {
     flex-grow: 0;
   }
 
+  .works-card p {
+    width: 231px;
+    height: 87px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 11px;
+    color: var(--white);
+    margin-top: 39px;
+    margin-bottom: 55px;
+  }
+
   .headline .headline-div p {
     flex-wrap: wrap;
     font-style: normal;
@@ -1676,19 +1689,6 @@ form button:hover {
     margin-top: 2px;
   }
 
-  .works-card p {
-    width: 231px;
-    height: 87px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 11px;
-    color: var(--white);
-    margin-top: 39px;
-    margin-bottom: 55px;
-  }
-
   .works-ul {
     list-style: none;
     display: flex;
@@ -1708,6 +1708,27 @@ form button:hover {
     color: var(--white);
     background-color: rgba(255, 255, 255, 0.24);
     margin-right: -12px;
+  }
+
+  form button {
+    width: 150px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: var(--orange3);
+    border: var(--orange2);
+    justify-content: space-around;
+    margin-left: 5%;
   }
 
   .works-card button {
@@ -1802,27 +1823,6 @@ form button:hover {
     gap: 8px;
   }
 
-  form button {
-    width: 150px;
-    height: 50px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--white);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: var(--orange3);
-    border: var(--orange2);
-    justify-content: space-around;
-    margin-left: 5%;
-  }
-
   .pop-win-buttons button {
     width: 150px;
     height: 40px;
@@ -1876,6 +1876,24 @@ form button:hover {
     margin-bottom: 10px;
   }
 
+  .works h2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 83px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: var(--dark);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
   #popUpSec h2,
   .close-btn {
     font-size: 35px;
@@ -1889,6 +1907,23 @@ form button:hover {
     flex-direction: row;
     gap: 8px;
     margin-bottom: 10px;
+  }
+
+  .progli li {
+    width: 100%;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 50px;
   }
 
   #popUpSec #pop-lang li {
@@ -1955,24 +1990,6 @@ form button:hover {
 
   .placeholder-image {
     display: none;
-  }
-
-  .works h2 {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 83px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    align-items: center;
-    color: var(--dark);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-top: 50px;
-    margin-bottom: 100px;
   }
 
   #hrh1 {
@@ -2423,23 +2440,6 @@ form button:hover {
     margin-left: 30px;
     margin-right: 30px;
     justify-content: flex-start;
-  }
-
-  .progli li {
-    width: 100%;
-    height: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: var(--white);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-bottom: 50px;
   }
 
   .mainh1 {
