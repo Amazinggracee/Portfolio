@@ -14,5 +14,4 @@ function toggleMenu() {
     burgerIcon.style.display = 'none';
   }
 }
-
 hamburger.addEventListener('click', toggleMenu);
