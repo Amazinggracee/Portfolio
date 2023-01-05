@@ -365,7 +365,11 @@ i {
   width: 350px;
   margin-bottom: 24px;
 }
-
+hr {
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .languages {
   list-style: none;
   display: flex;
@@ -683,12 +687,6 @@ form button {
 
 #hrh1 {
   display: none;
-}
-
-hr {
-  display: block;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .placeholder-image {
