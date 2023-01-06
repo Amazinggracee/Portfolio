@@ -12,28 +12,28 @@
 /* colors used in this project */
 
 :root {
-    --lightgrey: #dbd8d7;
-    --medium-grey: #acb7c3;
-    --white: #fff;
-    --light-color: #666;
-    --orange: #ff6b00;
-    --orange2: #f55800;
-    --orange3: #9a3a03;
-    --orange4: #e05304;
-    --white2: #fff5e1;
-    --white3: #f4f1f0;
-    --navy-blue: #091e42;
-    --navy-blue2: #172b4d;
-    --medium-grey2: #8993a4;
-    --grey: #3c3a39;
-    --dark: #1c1a19;
-    --coffee: #212121;
-    --grey2: #5b5957;
-    --grey3: #706b6b;
-    --grey4: #344563;
-    --call: rgb(26, 24, 24);
-    ---navy3: #344563;
-  }
+  --lightgrey: #dbd8d7;
+  --medium-grey: #acb7c3;
+  --white: #fff;
+  --light-color: #666;
+  --orange: #ff6b00;
+  --orange2: #f55800;
+  --orange3: #9a3a03;
+  --orange4: #e05304;
+  --white2: #fff5e1;
+  --white3: #f4f1f0;
+  --navy-blue: #091e42;
+  --navy-blue2: #172b4d;
+  --medium-grey2: #8993a4;
+  --grey: #3c3a39;
+  --dark: #1c1a19;
+  --coffee: #212121;
+  --grey2: #5b5957;
+  --grey3: #706b6b;
+  --grey4: #344563;
+  --call: rgb(26, 24, 24);
+  ---navy3: #344563;
+}
 
 .container,
 .about,
@@ -164,6 +164,7 @@ h3 {
   font-size: 16px;
   line-height: 24px;
   color: var(--navy-blue);
+  width: 68%;
 }
 
 .lang ul {
@@ -488,7 +489,6 @@ hr.mobile.menu {
 
 .modal.see-project {
   display: flex;
-  gap: 8px;
   align-items: center;
 }
 
@@ -540,6 +540,9 @@ hr.mobile.menu {
 }
 
 @media screen and (min-width: 768px) {
+  .desktop image {
+  }
+
   .mobile {
     display: none;
   }
@@ -597,7 +600,7 @@ hr.mobile.menu {
     padding-bottom: 80vh;
   }
 
-  .desktopA{
+  .desktopA {
     display: flex;
     align-items: center;
     gap: 87.01px;
@@ -840,9 +843,7 @@ hr.mobile.menu {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: var(--navy-blue2
-    
-    );
+    color: var(--navy-blue2);
   }
 
   .In-flex {
@@ -857,7 +858,7 @@ hr.mobile.menu {
   }
 
   .In-flex .image {
-    width: 100%;
+    width: 58%;
     height: auto;
     flex: 0 0 65%;
   }
