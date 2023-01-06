@@ -155,7 +155,7 @@ function modal() {
 }
 
 // modal display design
-for (let i = 0; i < projects.length; i+=) {
+for (let i = 0; i < projects.length; i += 1) {
   modalDisplay.innerHTML = `<div class="modal-headings">
   <h2 class=" mobile modal-Heading">${projects[i].mobileModalHeading}</h2>
   <h2 class=" desktop modal-Heading">${projects[i].desktopModalHeading}</h2>
@@ -170,14 +170,14 @@ for (let i = 0; i < projects.length; i+=) {
   </div>
 
   <div class='In-flex'>
-  <img src="images/modal-mobile.png" alt="close-icon" class=" mobile image" />
-  <img src="images/Desktop-modal.png" alt="close-icon" class=" desktop image" />
+  <img src="./Images/Desktop-modal.png" class=" mobile image" />
+  <img src="./Images/Desktop-modal.png" alt="close-icon" class=" desktop image" />
 
   <div class="flex-right">
   <p>${projects[i].modalDescription}</p>
   <div class="live-btns">
   <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
-  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
 
   </div>
   </div>
