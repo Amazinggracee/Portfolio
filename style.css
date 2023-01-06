@@ -103,6 +103,7 @@ h3 {
   font-weight: 400;
   font-size: 16px;
   color: var(--white);
+  width: 94%;
 }
 
 .mobile-menu ul {
@@ -121,7 +122,7 @@ h3 {
   display: flex;
   list-style: none;
   padding-left: 12px;
-  gap: 20px;
+  gap: 10px;
   justify-content: flex-start;
   margin-bottom: 12px;
 }
@@ -159,10 +160,16 @@ button:enabled {
   font-family: "Inter", sans-serif;
 }
 
+.social ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
 
+}
 
 footer .social ul {
   margin-bottom: 0;
+  list-style: none;
 }
 
 .mobile-menu ul > li:first-child {
@@ -218,7 +225,7 @@ footer .social ul {
   height: auto;
   margin-bottom: 12px;
  position: relative;
- left: -103px;
+ left: -3px;
 }
 
 .works p,
@@ -231,7 +238,6 @@ footer .social ul {
   font-size: 16px;
   line-height: 24px;
   color: var(--navy-blue);
-  width: 62%;
 }
 
 .lang.list ul {
@@ -822,6 +828,14 @@ button.see-project.btn:nth-child(1) {
     padding-left: 12px;
     display: flex;
     gap: 14px;
+  }
+
+  .work-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+   position: relative;
+   left: -103px;
   }
 
   .work-img:hover {
