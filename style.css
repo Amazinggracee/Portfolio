@@ -135,11 +135,6 @@ h3 {
   font-size: 15px;
 }
 
-.Programming-skills ul {
-  display: table;
-  margin: 0 auto;
-}
-
 .Programming-skills ul ul {
   list-style: none;
   text-align: center;
@@ -147,6 +142,11 @@ h3 {
   font-size: 22px;
   line-height: 43px;
   font-family: "Inter", sans-serif;
+}
+
+.Programming-skills ul {
+  display: table;
+  margin: 0 auto;
 }
 
 footer .social ul {
@@ -217,11 +217,26 @@ footer .social ul {
   font-size: 16px;
   line-height: 24px;
   color: var(--navy-blue);
-  width: 68%;
+  width: 62%;
+}
+
+.Programming-skills ul {
+  display: table;
+  margin: 0 auto;
 }
 
 .lang.list ul {
   padding: 0;
+}
+
+button {
+  padding: 12px;
+  border: 0;
+}
+
+button:enabled {
+  background: var(--orange2);
+  color: var(--white);
 }
 
 .lang button:disabled,
@@ -608,18 +623,8 @@ hr.mobile.menu {
     line-height: 32px;
   }
 
-  button {
-    padding: 12px;
-    border: 0;
-  }
-
-  button:enabled {
-    background: var(--orange2);
-    color: var(--white);
-  }
-
   .lang ul button {
-    margin-top: 24px;
+    margin-top: 14px;
   }
 
   .Programming-skills ul {
@@ -814,10 +819,6 @@ hr.mobile.menu {
     padding-left: 12px;
     display: flex;
     gap: 14px;
-  }
-
-  .work-img {
-    margin-right: -112px;
   }
 
   .work-img:hover {

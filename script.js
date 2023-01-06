@@ -155,7 +155,7 @@ function modal() {
 }
 
 // modal display design
-for (let i = 0; i < projects.length; i += 1) {
+for (let i = 0; i < projects.length; i+=) {
   modalDisplay.innerHTML = `<div class="modal-headings">
   <h2 class=" mobile modal-Heading">${projects[i].mobileModalHeading}</h2>
   <h2 class=" desktop modal-Heading">${projects[i].desktopModalHeading}</h2>
@@ -176,8 +176,9 @@ for (let i = 0; i < projects.length; i += 1) {
   <div class="flex-right">
   <p>${projects[i].modalDescription}</p>
   <div class="live-btns">
-  <a href="https://henry-dura.github.io/portfolio-mobile-first/" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
-  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+
   </div>
   </div>
 
