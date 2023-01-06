@@ -80,6 +80,7 @@ h3 {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: var(--orange);
+  margin-bottom: 17px;
 }
 
 .profession,
@@ -592,16 +593,16 @@ hr.mobile.menu {
   main {
     background-image: url("images/Illustration-header.png");
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 0;
-    padding-bottom: 80vh;
+    background-position: right center;
+    background-size: 40% 60%;
   }
 
   .desktopA {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 87.01px;
-    margin-left: 40px;
+    /* gap: 87.01px; */
+    /* margin-left: 40px; */
   }
 
   .intro {
@@ -613,7 +614,7 @@ hr.mobile.menu {
   }
 
   .skill {
-    padding-right: 731px;
+    padding-right: 227px;
     font-size: 20px;
     font-family: "Inter", sans-serif;
     line-height: 32px;
@@ -635,14 +636,17 @@ hr.mobile.menu {
     text-align: left;
   }
 
-  .desktopA.social ul {
-    order: 1;
+  .social ul {
+    list-style: none;
+    padding-left: 12px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    margin-top: 200px;
-    gap: 4px;
+    margin-left: 78px;
+    margin-right: 50px;
+    margin-top: 336px;
   }
 
   .second-desktop {
@@ -763,9 +767,12 @@ hr.mobile.menu {
   .bottom-dark {
     background-image: url("images/About-Desktop-bg.png");
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 10vh;
-    padding: 0 141px;
+    background-position: right center;
+    background-size: 20% 40%;
+  }
+
+  .about h3 {
+    margin-left: 101px;
   }
 
   .Programming-skills {
