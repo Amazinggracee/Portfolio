@@ -1,215 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<div class="change">
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Amazinggracee Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Poppins:ital,
-                wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-</head>
+    <script src="script.js" defer></script>
+    <title>Amazingracee Portfolio</title>
+  </head>
+  
+  <body>
+  
+    <div id="all-element">
+      <div class="container">
+        <header>
+          <div class="nav">
+              <p class="nav-item">Amara</p>
+              <nav>
+                <img src="images/Union.png" alt="hamburger-menu" class="mobile menu nav-item" id="hamburger" />
+                  <ul class="desktop">
+                    <li><img src="images/Icon - Cancel.png" alt="close-icon" class="mobile" id="close" /></li>
+                    <li><a href="#portfolio">Portfolio</a><hr  class="mobile menu"></li>
+                    <li><a href="#about">About</a><hr  class="mobile menu"></li>
+                    <li><a href="#contact">Contact</a><hr  class="mobile menu"></li>
+                    <li><a href="#"><img src="images/envelope.png" alt="envelope-icon" class="desktop"></a></li>
+                  </ul>
+              </nav>
+            </div> 
+        </header>
 
-<body>
-    <!-- Header start -->
-
-    <nav title="navigation menu" class="container">
-        <div class="home-div">
-            <a href="#home">Logo</a>
+        <main>
+          <div class="desktopA">
+          <div class="intro">
+            <h1>Hey There. I'm Amara</h1>
+              <h2 class="proffession">I am a Software Developer</h2>
+              <p class="skill">
+                I can help you build a product , feature or website. Look through
+                some of my work and experience! If you like what you see and have a
+                project you need coded, don’t hestiate to contact me.
+              </p>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a href="#"><img src="images/Icon -GitHub.png" alt="Github-icon" /></a></li>
+              <li><a href="#"><img src="images/Icon - Linkedin.png" alt="LinkedIn-icon"/></a></li>
+              <li><a href="#"><img src="images/Icon - Angelist.png" alt="Angelist-icon" /></a></li>
+              <li> <a href="#"><img src="images/Icon - Twitter.png" alt="Twitter-icon"/></a></li>
+              <li><a href="#"><img src="images/Icon - Medium.png" alt="Medium-icon"/></a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="menu-list">
-            <li>
-                <a class="menuItem" href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+      </div>
+        
+        
+        <section class="works" id="portfolio">
+      <div class="grid-container">
+        <div class="second-desktop">
+          <h2 class="recents">My Recent Works</h2>
+          <div class="line"></div>
+        </div>
+            <div class="item1" >
+                <img src="images/Img Placeholder.png" alt="" class="work-img">
+                <div class="third-desktop">
+                <h2>Multi-Post Stories</h2>
+                <p class="stories">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                      <div class="lang list">
+                <ul>
+                  <li><button>css</button></li>
+                  <li><button>html</button></li>
+                  <button>bootstrap</button>
+                  <li><button>Ruby</button></li>
+                </ul>
+                      </div>
+                      <button class="see-project">See Project</button>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <div class="bottom-dark">
+        <section class="about" id="about">
+          <h3>About me</h3>
+          <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work
+            and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <button class="see-project btn2">Get My Resume</button>
+        </section >
+        <hr class="foot">
+        <section class="Programming-skills">
+          <ul>
+            <li id="languages">
+              <h4 class="first">Languages</h4>
+                  <ul>
+                    <li>Javascript</li>
+                    <li>Ruby</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                  </ul>
             </li>
-            <hr class="showNot" />
-            <li>
-                <a class="menuItem about-2" href="#about" onclick="toggleMenu()">About</a>
+            <li id="frameworks" >
+              <h4 class="second">Frameworks</h4>
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>Ruby on Rails</li>
+                    <li>RsPec</li>
+                    <li>CapyBara</li>
+                    <li>Selenium</li>
+                  </ul>
             </li>
-            <hr class="showNot" />
-            <li>
-                <a class="menuItem" href="#contact" onclick="toggleMenu()">Contacts</a>
+            <li id="skillset">
+              <h4 class="third">Skills</h4>
+                  <ul>
+                    <li>Codekit</li>
+                    <li>Github</li>
+                    <li>Codepen</li>
+                    <li>Gitlab</li>
+                    <li>Terminal</li>
+                  </ul>
             </li>
-            <hr class="showNot" />
-        </ul>
-        <button class="btn-hamburger">
-            <i class="burgerIcon material-icons">menu</i>
-            <i class="closeIcon material-icons">close</i>
-        </button>
-    </nav>
-    <!-- -------------------Header end ------------------->
-
-    <!-- ----------------------Headline section start----------- -->
-
-    <section id="home" class="headline">
-        <div class="headline-div">
-            <h1 title="wellcome">I am Amara. Nice to meet you.</h1>
-            <h2 title="introduction">I am a Software Developer</h2>
-            <p title="description">
-                I can help you build a product , feature or website Look through some
-                of my work and experience! If you like what you see and have a project
-                you need coded, don't hestiate to contact me.
-            </p>
-        </div>
-        <div class="chi">
-            <ul class="icons">
-                <li>
-                    <a href="https://github.com/Amazinggracee
-                    " target="_blank"><img title="GitHub" src="./Images/Icon -GitHub.png" alt="GitHub" /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/amarachi-dimkpa-070643183
-                    " target="_blank"><img title="Linkedin" src="./Images/Icon - Linkedin.png" alt="Linkedin" /></a>
-                </li>
-                <li>
-                    <a href="#"><img title="Anglelist" src="./Images/Icon - Angelist.png" alt="Angelist" /></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/amazinggraceu" target="_blank"><img title="Twitter"
-                            src="./Images/Icon - Twitter.png" alt="Twitter" /></a>
-                </li>
-                <li>
-                    <a href="#"><img title="Medium" src="./Images/Icon - Medium.png" alt="Medium" /></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Headline section end -->
-
-    <!--      -->
-
-    <!-- ----------------Works section start------------------------------------ -->
-
-    <section class="second-section" id="portfolio"></section>
-
-    
-
-    <!-- ----------------Works section end-------------------- -->
-
-    <!-- Section Professional Art end -->
-
-    <!-- About Section begin -->
-    <section id="about" class="about">
-        <div class="check">
-            <h2 title="Little intro">About me</h2>
-            <p title="About Me">
-                Hello I'm a software developer! I can help you build a product ,
-                feature or website Look through some of my work and experience! If you
-                like what you see and have a project you need coded, don't hestiate to
-                contact me.
-            </p>
-
-            <a href="#"><button class="orange2">See Project</button></a>
-        </div>
-    </section>
-    <!-- About Section End -->
-
-    <!-- Prog lang section begins -->
-
-    <section class="prog-lang">
-        <img class="v-white" src="/Images/Vector.png" alt="horizontal line" />
-
-        <div class="prog">
-            <ul class="progli">
-                <li>
-                    <h2 class="mainh1" title="Programing Languages">
-                        <img src="./Images/Rectangle 55.png" alt="1.0" />Language
-                    </h2>
-                </li>
-                <li>Javascript</li>
-                <li>Ruby</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li></li>
-            </ul>
-
-            <ul class="progli">
-                <li>
-                    <h2 title="Frameworks Style" class="mainh1">
-                        <img src="./Images/square.png" alt="2.0" />Frameworks
-                    </h2>
-                </li>
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-                <li>RSPec</li>
-                <li>CapyBara</li>
-                <li>Selenium</li>
-            </ul>
-
-            <ul class="progli">
-                <li>
-                    <h2 title="Skills to show" class="mainh1">
-                        <img src="./Images/circle.png" alt="3.0" />Skills
-                    </h2>
-                </li>
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
-        </div>
-    </section>
-    <!-- Prog Lang section ends -->
-
-    <!-- Contact section begins -->
-    <section id="contact" class="contact1">
-        <h3 title="Asking Opportunity">
-            I'm always interested in hearing about new projects, so if you'd like to
-            chat please get in touch.
-        </h3>
-
-        <form action="https://formspree.io/f/maykrgwn" target="_blank" method="POST">
-            <input class="sm-app" input name="fullName" type="text" placeholder="Full Name" maxlength="30" required />
-            <p>
-                <input class="dis-input" name="firstName" type="text" placeholder="Full Name" maxlength="30" required />
-                <input class="dis-input" input name="lastName" type="text" placeholder="Last Name" maxlength="30"
-                    required />
-            </p>
-
-            <input name="Email" id="email" type="email" placeholder="Your email" required />
-
-            <textarea placeholder="textarea" name="message" minlength="10" maxlength="500" required>
-Enter text here</textarea>
-
-            <button type="submit">Get in Touch</button>
+          </ul>
+        </section>
+      </div>
+      <section class="contact" id="contact">
+        <h3 class="bottom-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+        <form action="https://formspree.io/f/maykrgwn" method="post" id="register">
+          <input type="text" name="name" placeholder="Full name" id="Full-name" maxlength="30" class="mobile optionM" required>
+          <hr class="mobile">
+          <div class="desktop contact-names">
+            <div class="first-name">
+              <input type="text" name="name" placeholder="First-name" id="First-name" maxlength="30"  class="optionD" required>
+              <hr class="foot">
+            </div>
+            <div class="last-name">
+              <input type="text" name="name" placeholder="Last-name" id="Last-name" maxlength="30" class="optionD" required>
+              <hr class="foot">
+            </div>
+          </div>
+          <input type="email" name="email" placeholder="Email address" id="email" required>
+          <hr>
+          <textarea name="message" id="message"  rows="5" cols="30" maxlength="500" placeholder="Enter text here"></textarea>
+          <p class="error-message">Message  not sent!  Please,  use lower case letters for your email</p>
+          <button type="submit" id="submit-btn" class="see-project">Get in touch</button>
         </form>
-    </section>
-    <!-- Contact section ends -->
-
-    <!-- Footer section start -->
-    <hr />
-    <section>
-        <ul class="icons dark-icons">
-            <li>
-                <a href="https://github.com/Amazinggracee"><img title="Github" src="./Images/dark git"
-                        alt="GitHub" /></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/amarachi-dimkpa-070643183"><img title="Linkdin"
-                        src="./Images/darkIcon - Linkedin.png" alt="Linkedin" /></a>
-            </li>
-            <li>
-                <a href="#"><img title="Anlglist" src="./Images/darkangellist.png" alt="Angelist" /></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/amazinggraceu"><img title="twitter" src="./Images/darktwitter.png"
-                        alt="Twitter" /></a>
-            </li>
-            <li>
-                <a href="#"><img title="Medium" src="./Images/darkmedium.png" alt="Medium" /></a>
-            </li>
-        </ul>
-    </section>
-    <!-- --------------------Footer section end------------------------ -->
-
-    <script src="app.js"></script>
-    <script src="index.js"></script>
-</body>
-
-</html>
+      </section>
+      <footer>
+        <hr class="foot">
+        <section class="social">
+          <ul>
+            <li><a href="#"><img src="images/GitHub-dark.png" alt="Github-icon" /></a></li>
+            <li><a href="#"><img src="images/Linkedin-dark.png" alt="LinkedIn-icon" /></a></li>
+            <li><a href="#"><img src="images/Angelist-dark.png" alt="Angelist-icon" /></a></li>
+            <li><a href="#"><img src="images/Twitter-dark.png" alt="Twitter-icon" /></a></li>
+            <li><a href="#"><img src="images/Medium-dark.png" alt="Medium-icon" /></a></li>
+          </ul>
+        </section>
+        <hr class="bottom-line mobile">
+      </footer>
+      </main>
+    </div>
+    
+  </body>
+  
+  </html>
+</div>
