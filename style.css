@@ -540,9 +540,6 @@ hr.mobile.menu {
 }
 
 @media screen and (min-width: 768px) {
-  .desktop image {
-  }
-
   .mobile {
     display: none;
   }
