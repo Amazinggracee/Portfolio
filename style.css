@@ -105,6 +105,45 @@ h3 {
   color: var(--white);
 }
 
+footer .social ul {
+  margin-bottom: 0;
+}
+
+.Programming-skills ul ul {
+  list-style: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  font-family: "Inter", sans-serif;
+}
+
+.Programming-skills ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.mobile-menu ul {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--white2);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 24px;
+}
+
+.lang ul {
+  display: flex;
+  list-style: none;
+  padding-left: 12px;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
 .desktopA .social ul {
   list-style: none;
   padding-left: 12px;
@@ -177,30 +216,9 @@ h3 {
   margin-bottom: 12px;
 }
 
-.mobile-menu ul {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  color: var(--white2);
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 0 24px;
-}
-
 .Programming-skills ul {
   display: table;
   margin: 0 auto;
-}
-
-.Programming-skills ul ul {
-  list-style: none;
-  text-align: center;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  font-family: "Inter", sans-serif;
 }
 
 footer .social ul {
@@ -634,7 +652,7 @@ hr.mobile.menu {
     text-align: left;
   }
 
-  .social ul {
+  .desktopA .social ul {
     list-style: none;
     padding-left: 12px;
     display: flex;
