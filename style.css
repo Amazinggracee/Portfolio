@@ -821,6 +821,10 @@ hr.mobile.menu {
     gap: 14px;
   }
 
+  .work-img {
+    margin-right: -112px;
+  }
+
   .work-img:hover {
     transform: scale(1.2);
     transition: transform 2s;
