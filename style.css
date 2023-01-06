@@ -105,24 +105,6 @@ h3 {
   color: var(--white);
 }
 
-footer .social ul {
-  margin-bottom: 0;
-}
-
-.Programming-skills ul ul {
-  list-style: none;
-  text-align: center;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  font-family: "Inter", sans-serif;
-}
-
-.Programming-skills ul {
-  display: table;
-  margin: 0 auto;
-}
-
 .mobile-menu ul {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -142,6 +124,46 @@ footer .social ul {
   gap: 20px;
   justify-content: flex-start;
   margin-bottom: 12px;
+}
+
+.lang ul button {
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+footer .social ul {
+  margin-bottom: 0;
+}
+
+.mobile-menu ul > li:first-child {
+  align-self: flex-end;
+}
+
+.lang ul {
+  display: flex;
+  list-style: none;
+  padding-left: 12px;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+.Programming-skills ul ul {
+  list-style: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  font-family: "Inter", sans-serif;
+}
+
+.Programming-skills ul {
+  display: table;
+  margin: 0 auto;
 }
 
 .desktopA .social ul {
@@ -207,15 +229,6 @@ footer .social ul {
   width: 68%;
 }
 
-.lang ul {
-  display: flex;
-  list-style: none;
-  padding-left: 12px;
-  gap: 20px;
-  justify-content: flex-start;
-  margin-bottom: 12px;
-}
-
 .Programming-skills ul {
   display: table;
   margin: 0 auto;
@@ -233,15 +246,6 @@ button {
 button:enabled {
   background: var(--orange2);
   color: var(--white);
-}
-
-.lang ul button {
-  color: var(--white);
-  font-family: "Inter", sans-serif;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
-  font-weight: 500;
-  font-size: 15px;
 }
 
 .lang button:disabled,
@@ -454,10 +458,6 @@ hr.mobile.menu {
   color: var(--white);
   text-decoration: none;
   padding-left: 12px;
-}
-
-.mobile-menu ul > li:first-child {
-  align-self: flex-end;
 }
 
 #close {
