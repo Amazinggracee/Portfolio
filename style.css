@@ -159,6 +159,8 @@ button:enabled {
   font-family: "Inter", sans-serif;
 }
 
+
+
 footer .social ul {
   margin-bottom: 0;
 }
@@ -215,6 +217,8 @@ footer .social ul {
   width: 100%;
   height: auto;
   margin-bottom: 12px;
+ position: relative;
+ left: -103px;
 }
 
 .works p,
@@ -464,11 +468,15 @@ hr.mobile.menu {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 80%;
-  left: 10%;
+  width: 85%;
+  left: 7%;
   overflow: scroll;
   bottom: 0;
   right: 0;
+}
+
+button.see-project.btn:nth-child(1) {
+  display: none;
 }
 
 .modal-headings {

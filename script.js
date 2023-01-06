@@ -16,9 +16,10 @@ hamburgerIcon.addEventListener('click', displayMenu);
 // Project card objects
 const projects = [
   {
+    id: 0,
     nameMobile: 'Project Art Printing Data',
     nameDesk: 'Project Art Printing Data',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: '',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item8',
@@ -29,9 +30,10 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
+    id: 1,
     nameMobile: 'Website Protfolio ',
     nameDesk: 'Website Protfolio ',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: '',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item9',
@@ -43,9 +45,10 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
+    id: 2,
     nameMobile: 'Profesional Art Printing Data More',
     nameDesk: 'Profesional Art Printing Data More',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item10',
@@ -57,9 +60,10 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
+    id: 3, 
     nameMobile: 'Data Dashboard Healthcare',
     nameDesk: 'Data Dashboard Healthcare',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item11',
@@ -71,9 +75,10 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
+    id: 4,
     nameMobile: 'Website Protfolio ',
     nameDesk: 'Website Protfolio ',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item12',
@@ -85,9 +90,10 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
+    id: 5,
     nameMobile: 'Project Art Printing Data',
     nameDesk: 'Website Portfolio',
-    description: "PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     technologies: ['html', 'bootstrap', 'Ruby'],
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item13',
@@ -100,6 +106,37 @@ const projects = [
   },
 ];
 
+const modalDisplay = document.createElement('div');
+function showDetails(i) {
+  modalDisplay.innerHTML = `<div class="modal-headings">
+  <h2 class=" mobile modal-Heading">${projects[i].mobileModalHeading}</h2>
+  <h2 class=" desktop modal-Heading">${projects[i].desktopModalHeading}</h2>
+  <div><img src="images/Icon - Cancel.png" alt="close-icon" id="modal-close" /></div>
+  </div>
+  <div class="lang modal list">
+  <ul>
+    <li><button>${projects[i].technologiesModal[0]}</button></li>
+    <li><button>${projects[i].technologiesModal[1]}</button></li>
+    <li><button>${projects[i].technologiesModal[2]}</button></li>
+  </ul>
+  </div>
+
+  <div class='In-flex'>
+  <img src="${projects[i].featuredImage}" class=" mobile image" />
+  <img src="${projects[i].featuredImage}" alt="close-icon" class=" desktop image" />
+
+  <div class="flex-right">
+  <p>${projects[i].modalDescription}</p>
+  <div class="live-btns">
+  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+
+  </div>
+  </div>
+
+  </div>
+  `;
+}
 // Project Cards Display
 const container = document.querySelector('.grid-container');
 
@@ -117,30 +154,37 @@ for (let i = 0; i < projects.length; i += 1) {
   div.appendChild(h2);
 }
 
-let count = 0;
+// let count = 0;
 
 const arr = [...container.children];
 
-for (let i = 2; i < arr.length; i += 1) {
+for (let i = 2; i < projects.length; i += 1) {
   const span = document.createElement('span');
   span.innerHTML = `
-    <p>${projects[count].description}</p>
+    <p>${projects[i].description}</p>
     <div class="lang">
     <ul>
-      <li><button>${projects[count].technologies[0]}</button></li>
-      <li><button>${projects[count].technologies[1]}</button></li>
-      <li><button>${projects[count].technologies[2]}</button></li>
+      <li><button>${projects[i].technologies[0]}</button></li>
+      <li><button>${projects[i].technologies[1]}</button></li>
+      <li><button>${projects[i].technologies[2]}</button></li>
     </ul>
 
   </div>
-  <button class="see-project btn">See Project</button>
+  <button class="see-project btn" data-id="${projects[i].id}">See Project</button>
+
 `; arr[i].appendChild(span);
-  count += 1;
+  // count += 1;
 }
+const showButton = document.querySelectorAll('.see-project');
+showButton.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    showDetails(event.target.dataset.id);
+  });
+});
 
 // PROJECT POPUP MENU
 const seeProjectBtn = document.querySelectorAll('.works .see-project');
-const modalDisplay = document.createElement('div');
+
 modalDisplay.classList.add('modal-display');
 const allElement = document.querySelector('#all-element'); // for both desktop and mobile
 
@@ -155,36 +199,7 @@ function modal() {
 }
 
 // modal display design
-for (let i = 0; i < projects.length; i += 1) {
-  modalDisplay.innerHTML = `<div class="modal-headings">
-  <h2 class=" mobile modal-Heading">${projects[i].mobileModalHeading}</h2>
-  <h2 class=" desktop modal-Heading">${projects[i].desktopModalHeading}</h2>
-  <div><img src="images/Icon - Cancel.png" alt="close-icon" id="modal-close" /></div>
-  </div>
-  <div class="lang modal list">
-  <ul>
-    <li><button>${projects[i].technologiesModal[0]}</button></li>
-    <li><button>${projects[i].technologiesModal[1]}</button></li>
-    <li><button>${projects[i].technologiesModal[2]}</button></li>
-  </ul>
-  </div>
 
-  <div class='In-flex'>
-  <img src="./Images/Desktop-modal.png" class=" mobile image" />
-  <img src="./Images/Desktop-modal.png" alt="close-icon" class=" desktop image" />
-
-  <div class="flex-right">
-  <p>${projects[i].modalDescription}</p>
-  <div class="live-btns">
-  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
-  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
-
-  </div>
-  </div>
-
-  </div>
-  `;
-}
 
 seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', modal);
