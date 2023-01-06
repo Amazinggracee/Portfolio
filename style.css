@@ -135,23 +135,6 @@ h3 {
   font-size: 15px;
 }
 
-footer .social ul {
-  margin-bottom: 0;
-}
-
-.mobile-menu ul > li:first-child {
-  align-self: flex-end;
-}
-
-.lang ul {
-  display: flex;
-  list-style: none;
-  padding-left: 12px;
-  gap: 20px;
-  justify-content: flex-start;
-  margin-bottom: 12px;
-}
-
 .Programming-skills ul ul {
   list-style: none;
   text-align: center;
@@ -159,6 +142,14 @@ footer .social ul {
   font-size: 22px;
   line-height: 43px;
   font-family: "Inter", sans-serif;
+}
+
+footer .social ul {
+  margin-bottom: 0;
+}
+
+.mobile-menu ul > li:first-child {
+  align-self: flex-end;
 }
 
 .Programming-skills ul {
