@@ -151,6 +151,12 @@ button:enabled {
   margin: 0 auto;
 }
 
+.social ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
 .Programming-skills ul ul {
   list-style: none;
   text-align: center;
@@ -158,13 +164,6 @@ button:enabled {
   font-size: 22px;
   line-height: 43px;
   font-family: "Inter", sans-serif;
-}
-
-.social ul {
-  display: flex;
-  flex-direction: row;
-  gap: 10%;
-
 }
 
 footer .social ul {
@@ -224,8 +223,8 @@ footer .social ul {
   width: 100%;
   height: auto;
   margin-bottom: 12px;
- position: relative;
- left: -3px;
+  position: relative;
+  left: -3px;
 }
 
 .works p,
@@ -499,7 +498,8 @@ button.see-project.btn:nth-child(1) {
 
 .live-btns {
   display: flex;
-  justify-content: space-between;
+  gap: 8%;
+  padding-top: 5%;
 }
 
 .modal.see-project {
@@ -834,8 +834,8 @@ button.see-project.btn:nth-child(1) {
     width: 100%;
     height: auto;
     margin-bottom: 12px;
-   position: relative;
-   left: -103px;
+    position: relative;
+    left: -103px;
   }
 
   .work-img:hover {

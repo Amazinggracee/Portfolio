@@ -60,7 +60,7 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
-    id: 3, 
+    id: 3,
     nameMobile: 'Data Dashboard Healthcare',
     nameDesk: 'Data Dashboard Healthcare',
     description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
@@ -128,8 +128,8 @@ function showDetails(i) {
   <div class="flex-right">
   <p>${projects[i].modalDescription}</p>
   <div class="live-btns">
-  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
-  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live &nbsp<img src="images/Icon.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source &nbsp<img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
 
   </div>
   </div>
@@ -199,7 +199,6 @@ function modal() {
 }
 
 // modal display design
-
 
 seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', modal);
