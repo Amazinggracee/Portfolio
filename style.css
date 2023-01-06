@@ -105,7 +105,7 @@ h3 {
   color: var(--white);
 }
 
-.social ul {
+.desktopA .social ul {
   list-style: none;
   padding-left: 12px;
   display: flex;
@@ -601,8 +601,6 @@ hr.mobile.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* gap: 87.01px; */
-    /* margin-left: 40px; */
   }
 
   .intro {
@@ -642,7 +640,6 @@ hr.mobile.menu {
     display: flex;
     gap: 25px;
     margin-bottom: 80px;
-    display: flex;
     flex-direction: column;
     margin-left: 78px;
     margin-right: 50px;
