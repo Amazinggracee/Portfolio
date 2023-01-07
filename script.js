@@ -60,7 +60,7 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
-    id: 3, 
+    id: 3,
     nameMobile: 'Data Dashboard Healthcare',
     nameDesk: 'Data Dashboard Healthcare',
     description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
@@ -200,7 +200,6 @@ function modal() {
 
 // modal display design
 
-
 seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', modal);
 });
@@ -214,26 +213,22 @@ if (window.screen.width <= 768) {
 
 window.addEventListener('resize', () => this.location.reload());
 
-const form = document.querySelector('#register');
 const email = document.querySelector('#email');
-const errorMessage = document.querySelector('.error-message');
 const fullName = document.querySelector('#Full-name');
 const feedback = document.querySelector('#message');
 const firstName = document.querySelector('#First-name');
 const lastName = document.querySelector('#Last-name');
 
-document.getElementById('register').addEventListener('submit', function(event) {
+document.getElementById('register').addEventListener('submit', function (event) {
   event.preventDefault(); // prevent the form from being submitted
 
   const email = document.getElementById('email').value;
-  if (email.toLowerCase() !== email) { 
-    document.querySelector('.error-message').style.display = 'block'; 
-    console.log("not submit")
+  if (email.toLowerCase() !== email) {
+    document.querySelector('.error-message').style.display = 'block';
   } else {
     this.submit(); // submit the form
   }
 });
-
 
 // storing data in local storage
 function visitorData() {
