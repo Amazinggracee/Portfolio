@@ -60,7 +60,7 @@ const projects = [
     source: 'https://github.com/Amazinggracee/Portfolio/window-pop',
   },
   {
-    id: 3,
+    id: 3, 
     nameMobile: 'Data Dashboard Healthcare',
     nameDesk: 'Data Dashboard Healthcare',
     description: 'PPA daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
@@ -68,7 +68,7 @@ const projects = [
     technologiesModal: ['html', 'bootstrap', 'Ruby on rails'],
     DesktopItem: 'item11',
     featuredImage: './Images/Img Placeholder (3).png',
-    mobileModalHeading: 'Stories that matters',
+    mobileModalHeading: 'Stories that',
     desktopModalHeading: 'Keeping track of hundreds  of components website',
     modalDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -128,8 +128,8 @@ function showDetails(i) {
   <div class="flex-right">
   <p>${projects[i].modalDescription}</p>
   <div class="live-btns">
-  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live &nbsp<img src="images/Icon.png" alt="Github-icon" /></button></a>
-  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source &nbsp<img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/Amazinggracee/Portfolio/window-pop" target="_blank"><button class="modal see-project">See Live <img src="images/Icon.png" alt="Github-icon" /></button></a>
+  <a href="https://github.com/henry-dura/portfolio-mobile-first" target="_blank"><button class="modal see-project">See Source <img src="images/Icon -GitHub.png" alt="Github-icon" /></button></a>
 
   </div>
   </div>
@@ -200,6 +200,51 @@ function modal() {
 
 // modal display design
 
+
 seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', modal);
 });
+
+// contact form validation
+if (window.screen.width <= 768) {
+  document.querySelector('.optionM').required = false;
+} else {
+  document.querySelector('.optionD').required = false;
+}
+
+window.addEventListener('resize', () => this.location.reload());
+
+const form = document.querySelector('#register');
+const email = document.querySelector('#email');
+const errorMessage = document.querySelector('.error-message');
+const fullName = document.querySelector('#Full-name');
+const feedback = document.querySelector('#message');
+const firstName = document.querySelector('#First-name');
+const lastName = document.querySelector('#Last-name');
+
+document.getElementById('register').addEventListener('submit', function(event) {
+  event.preventDefault(); // prevent the form from being submitted
+
+  const email = document.getElementById('email').value;
+  if (email.toLowerCase() !== email) { 
+    document.querySelector('.error-message').style.display = 'block'; 
+    console.log("not submit")
+  } else {
+    this.submit(); // submit the form
+  }
+});
+
+
+// storing data in local storage
+function visitorData() {
+  const visitor = {
+    First: firstName.value,
+    Last: lastName.value,
+    Name: fullName.value,
+    Email: email.value,
+    Message: feedback.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
+
+[fullName, email, feedback, firstName, lastName].forEach((input) => input.addEventListener('focusout', visitorData));

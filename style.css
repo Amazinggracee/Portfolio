@@ -550,7 +550,7 @@ button.see-project.btn:nth-child(1) {
 }
 
 .error-message {
-  visibility: hidden;
+  display: none;
   margin-bottom: 5px;
 }
 
