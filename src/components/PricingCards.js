@@ -1,6 +1,6 @@
 import './PricingCardsStyle.css';
-
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const PricingCards = () => {
   return (
@@ -14,9 +14,9 @@ const PricingCards = () => {
           <p>- 3 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <link to="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </link>
+          </Link>
               </div>
               
         <div className="card">
@@ -27,9 +27,9 @@ const PricingCards = () => {
           <p>- 3 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <link to="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </link>
+          </Link>
               </div>
               
         <div className="card">
@@ -40,9 +40,9 @@ const PricingCards = () => {
           <p>- 8 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <link to="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </link>
+          </Link>
         </div>
       </div>
     </div>
