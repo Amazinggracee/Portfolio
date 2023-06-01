@@ -3,18 +3,19 @@ import './FormStyle.css';
 import React from 'react'
 
 const Form = () => {
+    
   return (
     <div className="form">
-      <form>
+      <form action="https://formspree.io/f/maykrgwn" method="post">
         <label>Your Name</label>
-        <input type="text"></input>
+        <input type="text" name='fname' required></input>
         <label>Email</label>
-        <input type="emai"></input>
+        <input type="email" required></input>
         <label>Subject</label>
         <input type="text"></input>
         <label>Message</label>
-              <textarea rows="6" placeholder='Type your message here' />
-              <button className='btn'>Submit</button>
+        <textarea rows="6" placeholder="Type your message here" required />
+        <button className="btn">Submit</button>
       </form>
     </div>
   );
