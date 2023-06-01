@@ -9,7 +9,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 40px;
 }
 
 .card {
@@ -32,7 +32,7 @@
     padding: 10px 0;
 }
 
-.btn {
+.card .btn {
     display: block;
     width: 80%;
     margin: 2rem auto;
