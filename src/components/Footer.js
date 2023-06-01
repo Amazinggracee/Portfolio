@@ -48,7 +48,7 @@ const Footer = () => {
                             marginRight: "2rem",
                             }}
                         />
-                        amara.dimkpa@gmail.com
+                        amara.dimkpa1@gmail.com
                     </h4>
                 </div>
             </div>
