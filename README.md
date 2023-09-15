@@ -55,15 +55,26 @@
 
 ### Key Features <a name="key-features"></a>
 
+## APIs
+APIs used:
+- TVmaze API: data about TV series and movies.
+
 ## Interfaces:
 - [ ] The home page.
-- [ ] The comments popup.
+- [ ] 
+## Home page
+
+## Comments popup
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO AND THE DEPLOY -->
 
 ## 🚀 Live Demo and video <a name="live-demo"></a>
+
+
+- [Click Here]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +112,6 @@ For tracking linter errors locally you need to follow these steps:
 - Basic knowledge of Git and Github
 - Basic knowledge of Webpack
 - Basic knowledge of Jest
-- Basic knowledge of APIs
 
 To get the output of our project make sure you have google Chrome, Mozila or any other browser installed.
 
@@ -145,7 +155,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Amazinggracee/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Amazinggracee/VA-Movies-capstone2/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +172,6 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to [Microvers](www.microverse.org)  and all the staff
-- Thanks to My coding Partners 
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
 
