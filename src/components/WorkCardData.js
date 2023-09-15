@@ -4,6 +4,8 @@ import Pro3 from '../assets/rocketDesk.png';
 import Pro4 from '../assets/bookStore.png';
 import Pro5 from '../assets/airQuality-des.png';
 import Pro6 from "../assets/math.png";
+import Pro7 from "../assets/math.png";
+import Pro8 from "../assets/Budget.png";
 
 const projectCardData = [
   {
@@ -47,6 +49,20 @@ const projectCardData = [
     text: "This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.",
     view: "https://math-magician-58mh.onrender.com/",
     source: "https://github.com/Amazinggracee/math-magicians",
+  },
+  {
+    imgsrc: Pro7,
+    title: "Matruby-catalog-group-capstone",
+    text: "Is a Ruby-based group capstone project that allows users to create and manage a catalog of their personal belongings. It provides a user-friendly interface for organizing and categorizing items, making it easy to keep track of your possessions.",
+    view: "",
+    source: "https://github.com/Bestbynature/ruby-catalog-group-capstone",
+  },
+  {
+    imgsrc: Pro8,
+    title: "The-budget-app",
+    text: "The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    view: "https://the-budget.onrender.com",
+    source: "https://github.com/Amazinggracee/The-budget-app",
   },
 ];
 
