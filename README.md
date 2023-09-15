@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [VA-Movies-capstone2] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**[VA-Movies-capstone2]** Welcome to my portfolio! Here, I showcase my projects, highlighting my expertise in technology and innovation. Each project reflects my proficiency in software development and problem-solving. Explore my portfolio to witness my dedication to delivering impactful solutions and leveraging technology to drive positive change.
+**[Portfolio]** Welcome to my portfolio! Here, I showcase my projects, highlighting my expertise in technology and innovation. Each project reflects my proficiency in software development and problem-solving. Explore my portfolio to witness my dedication to delivering impactful solutions and leveraging technology to drive positive change.
 
 
 ## Learning objectives <a name="objectives"></a>
@@ -61,29 +61,10 @@ APIs used:
 
 ## Interfaces:
 - [ ] The home page.
-- [ ] The comments popup.
+- [ ] 
 ## Home page
-Remember that your page should make only 2 requests:
-One to the base API.
-And one to the Involvement API.
-When the user clicks on the Like button of an item, the interaction is recorded in the Involvement API and the screen is updated.
-When the user clicks on the "Comments" button, the Comments popup appears.
-Home page header and navigation similar to the given mockup.
-Home page footer similar to the given mockup.
+
 ## Comments popup
-When the popup loads, the webapp retrieves data from:
-The selected API and shows details about the selected item.
-The Involvement API to show the item comments.
-When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
-When the popup loads, the webapp retrieves data from:
-The selected API and shows details about the selected item.
-The Involvement API to show the item reservations.
-When the user clicks on the "Reserve" button, the data is recorded in the Involvement API and the screen is updated.
-Counters We have counters in all the interfaces that show:
-
-- The number of items (home).
-- The number of comments (comments popup).
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,9 +72,7 @@ Counters We have counters in all the interfaces that show:
 <!-- LIVE DEMO AND THE DEPLOY -->
 
 ## 🚀 Live Demo and video <a name="live-demo"></a>
-https://amazinggracee.github.io/VA-Movies-capstone2/dist
 
-https://www.loom.com/share/a91e3546fb7246e38e305f832778026c
 
 - [Click Here]()
 
@@ -106,8 +85,8 @@ https://www.loom.com/share/a91e3546fb7246e38e305f832778026c
 You can have a copy of this repo run on your local machine by just directly cloning it.
 
 To get a local copy up and running follow these simple example steps.
-1. Download the `Zip` or `(git clone)[https://github.com/Amazinggracee/VA-Movies-capstone2.git]`
-2. `cd Leaderboard`
+1. Download the `Zip` or `(git clone)[https://github.com/Amazinggracee/Portfolio.git]`
+2. `cd Portfolio`
 3. Then open in your browser by using `live server`
 
 ## Test
@@ -133,7 +112,6 @@ For tracking linter errors locally you need to follow these steps:
 - Basic knowledge of Git and Github
 - Basic knowledge of Webpack
 - Basic knowledge of Jest
-- Basic knowledge of APIs
 
 To get the output of our project make sure you have google Chrome, Mozila or any other browser installed.
 
@@ -194,7 +172,6 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to [Microvers](www.microverse.org)  and all the staff
-- Thanks to My coding Partners 
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
 
