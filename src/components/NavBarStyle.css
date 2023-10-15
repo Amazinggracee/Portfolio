@@ -10,6 +10,10 @@
   background: rgba(0, 0, 0, 0.724);
 }
 
+.logo img{
+
+}
+
 .header-bg {
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
