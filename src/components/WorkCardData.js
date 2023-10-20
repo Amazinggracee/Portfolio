@@ -6,6 +6,7 @@ import Pro5 from '../assets/airQuality-des.png';
 import Pro6 from "../assets/math.png";
 import Pro7 from "../assets/math.png";
 import Pro8 from "../assets/Budget.png";
+import Pro9 from "../assets/apointment.png";
 
 const projectCardData = [
   {
@@ -63,6 +64,13 @@ const projectCardData = [
     text: "The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
     view: "https://the-budget.onrender.com",
     source: "https://github.com/Amazinggracee/The-budget-app",
+  },
+  {
+    imgsrc: Pro9,
+    title: "Doctor Appointment App",
+    text: "The App is a web-based application designed to simplify the process of scheduling and managing appointments with healthcare providers. This open-source project aims to provide a user-friendly interface for patients to book appointments, view their medical history, and receive reminders for upcoming visits. Additionally, it offers healthcare professionals a platform to manage their schedules and access patient information efficiently.",
+    view: "https://doctor-app-u5x6.onrender.com/",
+    source: "https://github.com/Amazinggracee/appointment-app-front-end",
   },
 ];
 
