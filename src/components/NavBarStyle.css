@@ -32,6 +32,11 @@
   display: none;
 }
 
+.logo img {
+  width: 90px;
+  height: 54px;
+}
+
 @media screen and (max-width: 1040px) {
   .nav-menu {
     flex-direction: column;

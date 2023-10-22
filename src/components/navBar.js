@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './NavBarStyle.css';
+import logoImage from '../assets/Gold Luxury Business Logo.png'; // Import your logo image
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -28,7 +29,8 @@ const NavBar = () => {
     <div className={color ? 'header header-bg' : 'header'}>
       <Link to="/">
         <div className="logo">
-          <img src="../assets/Gold Luxury Business Logo.png" alt="Portfolio" />
+          {/* Add your logo image here */}
+          <img src={logoImage} alt="Logo" />
         </div>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
