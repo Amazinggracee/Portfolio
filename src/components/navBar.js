@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './NavBarStyle.css';
-import React, { useState, useEffect } from 'react';
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -43,6 +43,15 @@ const NavBar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1TqGawKXFWh6OPFu6o2NonCHW7uT21N3VRY8GephziEA/edit?usp=sharingf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </li>
       </ul>
       <div
