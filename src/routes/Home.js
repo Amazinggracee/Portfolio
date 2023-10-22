@@ -1,17 +1,14 @@
-import React from 'react'
-import NavBar from "../components/navBar";
+import React from 'react';
+import NavBar from '../components/navBar';
 import HeroImg from '../components/HeroImg';
-import Footer from "../components/Footer";
+import Footer from '../components/Footer';
 
+const Home = () => (
+  <div className="mother">
+    <NavBar />
+    <HeroImg />
+    <Footer />
+  </div>
+);
 
-const Home = () => {
-  return (
-      <div className='mother'>
-          <NavBar />
-      <HeroImg />
-      <Footer />
-    </div>
-  )
-}
-
-export default Home
+export default Home;

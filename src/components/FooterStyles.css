@@ -1,6 +1,6 @@
 footer {
   background-color: #222;
-  padding: 20px;
+  padding: 0;
   text-align: center;
   position: fixed;
   left: 0;
@@ -11,5 +11,16 @@ footer {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content:center
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+  padding: 2%;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #a5a2a2; /* Change the color to your preference */
 }

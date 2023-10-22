@@ -18,7 +18,7 @@
 //             PURCHASE NOW
 //           </Link>
 //               </div>
-              
+
 //         <div className="card">
 //           <h3>- Premium -</h3>
 //           <span className="bar"></span>
@@ -31,7 +31,7 @@
 //             PURCHASE NOW
 //           </Link>
 //               </div>
-              
+
 //         <div className="card">
 //           <h3>- Business -</h3>
 //           <span className="bar"></span>

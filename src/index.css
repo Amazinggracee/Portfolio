@@ -13,7 +13,10 @@ body {
   background: #000;
 }
 
-h1, h4, p, a {
+h1,
+h4,
+p,
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -43,4 +46,3 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
-
