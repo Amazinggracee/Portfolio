@@ -7,6 +7,7 @@ import Pro6 from '../assets/math.png';
 import Pro7 from '../assets/Gold Luxury Business Logo.png';
 import Pro8 from '../assets/Budget.png';
 import Pro9 from '../assets/apointment.png';
+import Pro10 from '../assets/college.png';
 
 const projectCardData = [
   {
@@ -71,6 +72,13 @@ const projectCardData = [
     text: 'The App is a web-based application designed to simplify the process of scheduling and managing appointments with healthcare providers. This open-source project aims to provide a user-friendly interface for patients to book appointments, view their medical history, and receive reminders for upcoming visits. Additionally, it offers healthcare professionals a platform to manage their schedules and access patient information efficiently.',
     view: 'https://doctor-app-u5x6.onrender.com/',
     source: 'https://github.com/Amazinggracee/appointment-app-front-end',
+  },
+  {
+    imgsrc: Pro10,
+    title: 'Doctor Appointment App',
+    text: 'The college website is the online platform that serves as the primary source of information for our college community. It provides a wealth of information about our college, its academic programs, student life, resources, and services.',
+    view: 'https://amazinggracee.github.io/College/',
+    source: 'https://github.com/Amazinggracee/College',
   },
 ];
 
