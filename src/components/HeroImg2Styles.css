@@ -1,7 +1,7 @@
 .hero-img {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
-  height: 60vh;
+  height: 58vh;
   position: relative;
 }
 
@@ -34,7 +34,7 @@
 .hero-img p {
   font-size: 1.4rem;
   text-align: center;
-  width: 32rem;
+  width: 70vw;
   background: rgba(0, 0, 0, 0.405);
   height: auto;
 }

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 46px;
   z-index: 10;
   background: rgba(0, 0, 0, 0.724);
@@ -65,6 +65,6 @@
   }
 
   .hamburger {
-    display: initial;
+    display: block;
   }
 }
