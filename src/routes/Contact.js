@@ -7,7 +7,10 @@ import Form from '../components/Form';
 const Contact = () => (
   <div>
     <NavBar />
-    <HeroImg2 heading="Contact." text="Let's have a chat." />
+    <HeroImg2
+      heading="Contact."
+      text="I'm always interested in hearing about new projects, so if you'd like to chat please get in touch."
+    />
     <Form />
     <Footer />
   </div>

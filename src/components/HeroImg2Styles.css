@@ -36,6 +36,7 @@
   text-align: center;
   width: 32rem;
   background: rgba(0, 0, 0, 0.405);
+  height: auto;
 }
 
 @media screen and (max-width: 640px) {
