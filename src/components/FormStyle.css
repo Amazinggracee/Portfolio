@@ -52,6 +52,7 @@ textarea {
   font-size: 16px;
   font-weight: 700;
   padding: 2%;
+  cursor: pointer;
 }
 
 /* Make the button responsive */
