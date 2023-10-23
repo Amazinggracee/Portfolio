@@ -97,6 +97,7 @@ function Form() {
         type="submit"
         className="view-resume-button"
         disabled={state.submitting}
+        title="Submit button"
       >
         Submit
       </button>

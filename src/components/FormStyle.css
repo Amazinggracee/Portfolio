@@ -21,9 +21,12 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
   background-color: transparent;
-  color: #333;
+  color: #fff;
 }
 
+::placeholder {
+  color: #fff;
+}
 /* Style the error messages */
 .ValidationError {
   color: #f00;
