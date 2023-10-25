@@ -7,7 +7,6 @@ import {
   faGithub,
   faLinkedin,
   faMediumM,
-  faAngellist,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
@@ -19,37 +18,40 @@ const Footer = () => (
       {' '}
       All rights reserved.
       <div className="social-media">
-        <a href="https://www.facebook.com/yourprofile">
+        <a
+          href="https://www.facebook.com/yourprofile"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faFacebook} />
           {' '}
           Facebook
         </a>
-        <a href="https://github.com/Amazinggracee">
+        <a
+          href="https://github.com/Amazinggracee"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
           {' '}
           Github
         </a>
-        <a href="https://www.linkedin.com/in/amarachi-dimkpa/">
+        <a href="https://www.linkedin.com/in/amarachi-dimkpa/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
           {' '}
           Linkedin
         </a>
-        <a href="https://medium.com/@amazinggracee">
+        <a href="https://medium.com/@amazinggracee" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faMediumM} />
           {' '}
           Medium
         </a>
-        <a href="https://venture.angellist.com/v/amarachi-dimkpa-1">
-          <FontAwesomeIcon icon={faAngellist} />
-          {' '}
-          Angelist
-        </a>
-        <a href="https://twitter.com/amazinggraceu">
+        <a href="https://twitter.com/amazinggraceu" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
           {' '}
           Twitter
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
           {' '}
           Instagram

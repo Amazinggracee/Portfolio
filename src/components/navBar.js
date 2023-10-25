@@ -29,7 +29,6 @@ const NavBar = () => {
     <div className={color ? 'header header-bg' : 'header'}>
       <Link to="/">
         <div className="logo">
-          {/* Add your logo image here */}
           <img src={logoImage} alt="Logo" />
         </div>
       </Link>

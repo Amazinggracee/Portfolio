@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import PropTypes from 'prop-types'; // Import PropTypes
+import PropTypes from 'prop-types';
 
 const WorkCard = ({
   imgsrc, title, text, view, source,
@@ -9,15 +9,12 @@ const WorkCard = ({
     <img src={imgsrc} alt="capstone" />
     <h2 className="project-title">{title}</h2>
     <div className="pro-details">
-      <p>
-        {text}
-        {' '}
-      </p>
+      <p>{text}</p>
       <div className="pro-btns">
-        <NavLink to={view} className="btn">
+        <NavLink to={view} className="btn" target="_blank">
           View
         </NavLink>
-        <NavLink to={source} className="btn">
+        <NavLink to={source} className="btn" target="_blank">
           Source
         </NavLink>
       </div>
@@ -25,7 +22,6 @@ const WorkCard = ({
   </div>
 );
 
-// Define propTypes for your component
 WorkCard.propTypes = {
   imgsrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,

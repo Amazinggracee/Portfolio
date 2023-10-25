@@ -4,7 +4,7 @@ import Pro3 from '../assets/rocketDesk.png';
 import Pro4 from '../assets/bookStore.png';
 import Pro5 from '../assets/airQuality-des.png';
 import Pro6 from '../assets/math.png';
-import Pro7 from '../assets/Gold Luxury Business Logo.png';
+import Pro7 from '../assets/cat.avif';
 import Pro8 from '../assets/Budget.png';
 import Pro9 from '../assets/apointment.png';
 import Pro10 from '../assets/college.png';
