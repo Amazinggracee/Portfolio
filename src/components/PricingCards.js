@@ -1,52 +1,54 @@
-// import './PricingCardsStyle.css';
-// import React from 'react';
-// import { Link } from "react-router-dom";
+import './PricingCardsStyle.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-// const PricingCards = () => {
-//   return (
-//     <div className="pricing">
-//       <div className="card-container">
-//         <div className="card">
-//           <h3>- Basic -</h3>
-//           <span className="bar"></span>
-//           <p className="btc">$ 100</p>
-//           <p>- 3 days -</p>
-//           <p>- 3 Pages -</p>
-//           <p>- Featured -</p>
-//           <p>- Responsive Design -</p>
-//           <Link to="/contact" className="btn">
-//             PURCHASE NOW
-//           </Link>
-//               </div>
+const PricingCards = () => (
+  <div className="pricing">
+    <h1 className="project-heading">SKILLS</h1>
+    <div className="card-container">
+      <div className="card">
+        <h3>- FrontEnd-</h3>
+        <span className="bar" />
+        <p>React</p>
+        <p>Redux</p>
+        <p>Html</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>Figma</p>
+        <Link to="/contact" className="btn">
+          CONTACT
+        </Link>
+      </div>
 
-//         <div className="card">
-//           <h3>- Premium -</h3>
-//           <span className="bar"></span>
-//           <p className="btc">$ 200</p>
-//           <p>- 2 days -</p>
-//           <p>- 3 Pages -</p>
-//           <p>- Featured -</p>
-//           <p>- Responsive Design -</p>
-//           <Link to="/contact" className="btn">
-//             PURCHASE NOW
-//           </Link>
-//               </div>
+      <div className="card">
+        <h3>- BackEnd and Testing -</h3>
+        <span className="bar" />
+        <p>Bootstrap</p>
+        <p>RSPec</p>
+        <p>Ruby on Rails</p>
+        <p>PostgreSQL</p>
+        <p>Jest</p>
+        <p>Capybara</p>
+        <Link to="/contact" className="btn">
+          CONTACT
+        </Link>
+      </div>
 
-//         <div className="card">
-//           <h3>- Business -</h3>
-//           <span className="bar"></span>
-//           <p className="btc">$ 300</p>
-//           <p>- 5 days -</p>
-//           <p>- 8 Pages -</p>
-//           <p>- Featured -</p>
-//           <p>- Responsive Design -</p>
-//           <Link to="/contact" className="btn">
-//             PURCHASE NOW
-//           </Link>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
+      <div className="card">
+        <h3>- Other Professional Skills-</h3>
+        <span className="bar" />
+        <p>Git, GitHub</p>
+        <p>Heroku, Netlify</p>
+        <p>Code Reviewer</p>
+        <p>Remote Pair-Programming</p>
+        <p>Mentoring, Teamwork</p>
+        <p>Dev Tools</p>
+        <Link to="/contact" className="btn">
+          CONTACT
+        </Link>
+      </div>
+    </div>
+  </div>
+);
 
-// export default PricingCards
+export default PricingCards;
