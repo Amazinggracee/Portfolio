@@ -71,7 +71,7 @@ APIs used:
 
 <!-- LIVE DEMO AND THE DEPLOY -->
 
-## 🚀 Live Demo and video <a name="live-demo"></a>
+## 🚀 Live Demo and video <a name="live-demo"> https://willowy-kringle-e4f8b9.netlify.app/</a>
 
 
 - [Click Here]()
