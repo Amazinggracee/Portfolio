@@ -1,9 +1,13 @@
 import './PricingCardsStyle.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+AOS.init({ duration: 3000 });
 
 const PricingCards = () => (
-  <div className="pricing">
+  <div className="pricing" data-aos="fade-up">
     <h1 className="project-heading">SKILLS</h1>
     <div className="card-container">
       <div className="card">
