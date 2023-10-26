@@ -4,14 +4,15 @@
   align-items: center;
   padding: 1rem;
   position: fixed;
-  width: 100%;
-  height: 90px;
+  width: 100vw;
+  height: 46px;
   z-index: 10;
+  background: rgba(0, 0, 0, 0.724);
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.85);
-    transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
 }
 
 .nav-menu {
@@ -29,6 +30,11 @@
 
 .hamburger {
   display: none;
+}
+
+.logo img {
+  width: 90px;
+  height: 54px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -59,6 +65,6 @@
   }
 
   .hamburger {
-    display: initial;
+    display: block;
   }
 }

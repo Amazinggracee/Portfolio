@@ -13,7 +13,10 @@ body {
   background: #000;
 }
 
-h1, h4, p, a {
+h1,
+h4,
+p,
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -26,7 +29,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: rgb(248, 124, 15);
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;
@@ -43,4 +46,3 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
-

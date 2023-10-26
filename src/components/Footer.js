@@ -1,93 +1,64 @@
-import "./FooterStyles.css";
-import React from "react";
+import './FooterStyles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  FaHome,
-  FaPhone,
-  FaMailBulk,
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faLinkedin,
+  faMediumM,
+} from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => {
-  return (
-    <div className="footer">
-      <div className="footer-container">
-            <div className="left">
-                <div className="location">
-                    <FaHome
-                        size={20}
-                        style={{
-                        color: "#fff",
-                        marginRight: "2rem",
-                        }}
-                    />
-                    <div>
-                        <p>DB 35 Reserve Estate</p>
-                        <p>Port Harcourt, Rivers, Nigeria</p>
-                    </div>
-                </div>
-                <div className="phone">
-                    <h4>
-                        <FaPhone
-                            size={20}
-                            style={{
-                            color: "#fff",
-                            marginRight: "2rem",
-                            }}
-                        />
-                        2348038310102
-                    </h4>
-                </div>
-                <div className="email">
-                    <h4>
-                        <FaMailBulk
-                            size={20}
-                            style={{
-                            color: "#fff",
-                            marginRight: "2rem",
-                            }}
-                        />
-                        amara.dimkpa1@gmail.com
-                    </h4>
-                </div>
-            </div>
-            <div className="right">
-                <h4>About the company</h4>
-                <p>
-                     Hello, I'm Amara, an experienced software developer who loves
-                    creating new and exciting solutions. I have expertise in multiple
-                     programming languages and know how to deliver high-quality code
-                    while working smoothly with different teams.
-                </p>
-                <div className="social">
-                    <FaFacebook
-                        size={30}
-                        style={{
-                        color: "#fff",
-                         marginRight: "1rem",
-                        }}
-                    />
-                    <FaTwitter
-                        size={30}
-                        style={{
-                        color: "#fff",
-                        marginRight: "1rem",
-                        }}
-                    />
-                    <FaLinkedin
-                        size={30}
-                        style={{
-                        color: "#fff",
-                        marginRight: "1rem",
-                        }}
-                    />
-                </div>
-            </div>
-        </div>
-        
+const Footer = () => (
+  <footer>
+    <p className="footer">
+      &copy;
+      {' '}
+      {new Date().getFullYear()}
+      {' '}
+      All rights reserved.
+      <div className="social-media">
+        <a
+          href="https://www.facebook.com/yourprofile"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+          {' '}
+          Facebook
+        </a>
+        <a
+          href="https://github.com/Amazinggracee"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+          {' '}
+          Github
+        </a>
+        <a href="https://www.linkedin.com/in/amarachi-dimkpa/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} />
+          {' '}
+          Linkedin
+        </a>
+        <a href="https://medium.com/@amazinggracee" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faMediumM} />
+          {' '}
+          Medium
+        </a>
+        <a href="https://twitter.com/amazinggraceu" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faTwitter} />
+          {' '}
+          Twitter
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faInstagram} />
+          {' '}
+          Instagram
+        </a>
       </div>
-  );
-};
+    </p>
+  </footer>
+);
 
 export default Footer;
