@@ -11,9 +11,9 @@ const Work = () => (
   <div className="work-container" data-aos="fade-up">
     <h1 className="project-heading">Project</h1>
     <div className="project-container" data-aos="fade-up">
-      {projectCardData.map((val, index) => (
+      {projectCardData.map((val) => (
         <WorkCard
-          key={`work-card-${index}`} // Use a unique key here
+          key={`work-card-${val.id}`} // Using a unique identifier as the key
           imgsrc={val.imgsrc}
           title={val.title}
           text={val.text}
