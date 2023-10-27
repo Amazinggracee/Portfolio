@@ -61,10 +61,10 @@ APIs used:
 
 ## Interfaces:
 - [ ] The home page.
-- [ ] 
-## Home page
-
-## Comments popup
+- [ ] Projects
+- [ ] About
+- [ ] Contact
+- [ ] Resume
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -155,7 +155,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Amazinggracee/VA-Movies-capstone2/issues).
+Feel free to check the [issues page](https://github.com/Amazinggracee/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
