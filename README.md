@@ -46,7 +46,6 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 - Javascript
-- APIs
 - Webpack
 - Jest
 
