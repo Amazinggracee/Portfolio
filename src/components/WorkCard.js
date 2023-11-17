@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const WorkCard = ({
-  imgsrc, title, text, view, source,
+  imgsrc, title, text, view, source, likes, handleLike,
 }) => (
   <div className="project-card">
     <img src={imgsrc} alt="capstone" />
@@ -17,6 +17,13 @@ const WorkCard = ({
         <NavLink to={source} className="btn" target="_blank">
           Source
         </NavLink>
+        <div className="btn get">
+          <button onClick={() => handleLike()} type="button" className="btn">
+            Likes:
+            {' '}
+            {likes}
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -28,6 +35,8 @@ WorkCard.propTypes = {
   text: PropTypes.string.isRequired,
   view: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
+  likes: PropTypes.number.isRequired,
+  handleLike: PropTypes.func.isRequired, // Add this line
 };
 
 export default WorkCard;
