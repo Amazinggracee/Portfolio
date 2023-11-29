@@ -75,7 +75,7 @@ const projectCardData = [
   },
   {
     imgsrc: Pro10,
-    title: 'Doctor Appointment App',
+    title: 'Fashion Design College',
     text: 'The college website is the online platform that serves as the primary source of information for our college community. It provides a wealth of information about our college, its academic programs, student life, resources, and services.',
     view: 'https://amazinggracee.github.io/College/',
     source: 'https://github.com/Amazinggracee/College',
