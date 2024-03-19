@@ -21,9 +21,14 @@ const HeroImg = () => (
         Full-Stack Software Developer
       </h1>
       <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        Hello, I am Amarachi Dimkpa, a software Developer. I am a proficient
-        software engineer committed to ongoing self-improvement and keeping
-        abreast of the latest developments in the industry.
+        Hello, I am Amarachi Dimkpa, a React software Developer. I am a
+        proficient software engineer committed to ongoing self-improvement and
+        keeping abreast of the latest developments in the industry. I excel in
+        dynamic work settings, relishing the opportunity to tackle complex
+        problems and consistently surpass customer expectations. My
+        contributions to each project encompass adept problem-solving abilities,
+        efficient time management, and a strong spirit of collaboration within
+        the team.
       </p>
 
       <div>
