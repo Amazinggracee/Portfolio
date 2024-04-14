@@ -25,7 +25,6 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faFacebook} />
           {' '}
-          Facebook
         </a>
         <a
           href="https://github.com/Amazinggracee"
@@ -34,7 +33,6 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faGithub} />
           {' '}
-          Github
         </a>
         <a
           href="https://www.linkedin.com/in/amarachi-dimkpa/"
@@ -43,7 +41,6 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faLinkedin} />
           {' '}
-          Linkedin
         </a>
         <a
           href="https://medium.com/@amazinggracee"
@@ -52,7 +49,6 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faMediumM} />
           {' '}
-          Medium
         </a>
         <a
           href="https://twitter.com/amazinggraceu"
@@ -61,12 +57,10 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faTwitter} />
           {' '}
-          Twitter
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
           {' '}
-          Instagram
         </a>
       </div>
     </p>
