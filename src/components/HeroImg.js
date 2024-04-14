@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import IntroImg from '../assets/heroImg.jpg';
 import 'aos/dist/aos.css';
-import './HeroImg.css';
 
 AOS.init({ duration: 3000 });
 
