@@ -74,7 +74,12 @@ textarea {
     width: 100%;
   }
 
- form button{
-    padding-bottom: 6rem;
-  }
+form {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
 }
