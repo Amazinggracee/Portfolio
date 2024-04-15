@@ -28,7 +28,7 @@ const HeroImg = () => (
           Contact
         </Link>
       </div>
-      <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <p>
         Hello, I am Amarachi Dimkpa, a React software Developer,Seamstress and a
         dedicated Personal Support Worker (PSW). In addition to my proficiency
         in software engineering,I provide compassionate care, prioritize patient
