@@ -21,7 +21,7 @@ const HeroImg = () => (
         Full-Stack Software Developer, Personal Support Worker and Seamstress
       </h1>
       <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        Hello, I am Amarachi Dimkpa, a React software Developer and a dedicated
+        Hello, I am Amarachi Dimkpa, a React software Developer,Seamstress and a dedicated
         Personal Support Worker (PSW). In addition to my proficiency in software
         engineering,I provide compassionate care, prioritize patient well-being,
         and ensure a supportive environment. I am committed to ongoing
