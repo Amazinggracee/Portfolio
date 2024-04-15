@@ -18,7 +18,7 @@ const HeroImg = () => (
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
       >
-        Full-Stack Software Developer And a Personal Support Worker
+        Full-Stack Software Developer, Personal Support Worker and Seamstress
       </h1>
       <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         Hello, I am Amarachi Dimkpa, a React software Developer and a dedicated
