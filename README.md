@@ -135,7 +135,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 - GitHub: [@amazinggacee](https://github.com/Amazinggracee)
 - Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
