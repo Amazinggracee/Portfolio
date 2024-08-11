@@ -21,7 +21,7 @@ const projectCardData = [
   {
     imgsrc: Pro2,
     title: 'Event',
-    text: 'The Capstone project is centered around the creation of a conference or event website with the theme of 'Reduce, Reuse and Recycle.' This website is designed to serve as a platform for promoting and hosting an event that focuses on sustainability and environmental consciousness. Its core mission is to advocate and raise awareness about the principles of reducing waste, reusing resources, and recycling materials, all with the aim of contributing to a greener and more sustainable future.',
+    text: 'The Capstone project is centered around the creation of a conference or event website with the theme of "Reduce, Reuse and Recycle." This website is designed to serve as a platform for promoting and hosting an event that focuses on sustainability and environmental consciousness. Its core mission is to advocate and raise awareness about the principles of reducing waste, reusing resources, and recycling materials, all with the aim of contributing to a greener and more sustainable future.',
     view: 'https://amazinggracee.github.io/capstone-project/',
     source: 'https://github.com/Amazinggracee/capstone-project',
   },
