@@ -35,7 +35,7 @@ const projectCardData = [
   {
     imgsrc: Pro4,
     title: 'Rocket Booking',
-    text: 'A web application is in development for a company specializing in commercial space travel services. Users can reserve seats on rockets and participate in meticulously curated space missions of their choice. This exciting endeavor marks a significant step forward in making space exploration accessible to a wider audience, bridging the gap between the dream of space travel and its real-world fulfillment. The application will not only enable rocket journey bookings but also facilitate engagement in carefully chosen space expeditions, making it a one-stop destination for those who aspire to venture beyond our planet's boundaries.',
+    text: 'A web application is in development for a company specializing in commercial space travel services. Users can reserve seats on rockets and participate in meticulously curated space missions of their choice. This exciting endeavor marks a significant step forward in making space exploration accessible to a wider audience, bridging the gap between the dream of space travel and its real-world fulfillment. The application will not only enable rocket journey bookings but also facilitate engagement in carefully chosen space expeditions, making it a one-stop destination for those who aspire to venture beyond our planet s boundaries.',
     view: 'https://rocket-mission-iu7s.onrender.com/',
     source: 'https://github.com/Amazinggracee/rocket-mission',
   },
