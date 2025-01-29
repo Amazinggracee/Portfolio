@@ -13,7 +13,7 @@ const AboutContent = () => (
     <div className="left">
       <h1>Who Am I</h1>
       <p data-aos="fade-right">
-        Hello, I am Amarachi Dimkpa, a React software Developer and a dedicated
+        Hello, I am Amarachi Dimkpa, a React software Developer, a dedicated Social Service Worker, and
         Personal Support Worker (PSW). In addition to my proficiency in software
         engineering,I provide compassionate care, prioritize patient well-being,
         and ensure a supportive environment. I am committed to ongoing
