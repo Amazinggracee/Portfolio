@@ -46,7 +46,7 @@ const NavBar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-        <img className="into-img" src= "../assets/Recom.pdf" alt="hero" />
+        <img className="into-img" src= "../assets/Recom.pdf" alt="hero" placeholder='Recommendation Letter'/>
         </li>
         <li>
           <a
