@@ -20,7 +20,7 @@ const AboutContent = () => (
         self-improvement and staying updated with industry advancements. I excel
         in dynamic work settings, tackling complex problems with adept
         problem-solving abilities, efficient time management, and fostering
-        collaboration within the team.
+        collaboration within the team. Come let us make the world a better place.
       </p>
       <Link to="/contact">
         <button className="btn" type="submit">
