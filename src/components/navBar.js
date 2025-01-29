@@ -47,6 +47,24 @@ const NavBar = () => {
         </li>
         <li>
           <a
+            href="https://www.dropbox.com/scl/fi/vnauk895746joaw7i8jyw/Recom.pdf?rlkey=3fv0d5hfvfrzs6krfo0q0e4v2&st=fazopkgb&dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Letters of Recommendation
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1ThLCyLlMGFJwfQwvI4wFJxhmRQal1aYfoevIOefsoH0/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cover Letter
+          </a>
+        </li>
+        <li>
+          <a
             href="https://docs.google.com/document/d/1C2Z7Pb4Df2tawjva2SaTF1NIZdx7If-sKyOpLF8QXrk/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"

@@ -19,13 +19,12 @@ const Footer = () => (
       All rights reserved.
       <div className="social-media">
         <a
-          href="https://www.facebook.com/yourprofile"
+          href="https://www.facebook.com/amara.uchenna/"
           target="_blank"
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faFacebook} />
           {' '}
-          Facebook
         </a>
         <a
           href="https://github.com/Amazinggracee"
@@ -34,27 +33,34 @@ const Footer = () => (
         >
           <FontAwesomeIcon icon={faGithub} />
           {' '}
-          Github
         </a>
-        <a href="https://www.linkedin.com/in/amarachi-dimkpa/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/amarachi-dimkpa/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
           {' '}
-          Linkedin
         </a>
-        <a href="https://medium.com/@amazinggracee" target="_blank" rel="noreferrer">
+        <a
+          href="https://medium.com/@amazinggracee"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faMediumM} />
           {' '}
-          Medium
         </a>
-        <a href="https://twitter.com/amazinggraceu" target="_blank" rel="noreferrer">
+        <a
+          href="https://twitter.com/amazinggraceu"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faTwitter} />
           {' '}
-          Twitter
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
           {' '}
-          Instagram
         </a>
       </div>
     </p>

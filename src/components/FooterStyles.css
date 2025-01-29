@@ -24,3 +24,13 @@ footer {
   text-decoration: none;
   color: #a5a2a2; /* Change the color to your preference */
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .social-media {
+    padding: 0;
+  }
+}

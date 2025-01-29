@@ -18,14 +18,20 @@ const HeroImg = () => (
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
       >
-        Full-Stack Software Developer
+        Social Service Worker, Full-Stack Software Developer, Personal Support Worker and Seamstress
       </h1>
-      <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        Hello, I am Amarachi Dimkpa, a software Developer. I am a proficient
-        software engineer committed to ongoing self-improvement and keeping
-        abreast of the latest developments in the industry.
+      <p>
+        Hello! My name is Amarachi Dimkpa, and I have a diverse skill set that spans
+        across several fields.
+        I work as a Social Service Worker, where I support individuals and families,
+        helping them navigate challenges and access necessary resources. Alongside this,
+        I am a Full-Stack Software Developer, skilled in creating responsive web applications.
+        I also work as a Personal Support Worker, providing compassionate care to those in need,
+        and as a Seamstress, where I design and create custom garments.
+        Each of these roles allows me to make a positive impact in peoples lives,
+        whether through direct care, technology,or craftsmanship.
+        <p>Let me know if youd like more details on any of these areas!</p>
       </p>
-
       <div>
         <Link to="/project" className="btn ">
           Project

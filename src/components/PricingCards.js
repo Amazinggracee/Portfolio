@@ -27,7 +27,6 @@ const PricingCards = () => (
           CONTACT
         </Link>
       </div>
-
       <div className="card">
         <h3>- BackEnd and Testing -</h3>
         <span className="bar" />
@@ -37,6 +36,24 @@ const PricingCards = () => (
         <p>PostgreSQL</p>
         <p>Jest</p>
         <p>Capybara</p>
+        <Link to="/contact" className="btn">
+          CONTACT
+        </Link>
+      </div>
+      <div className="card">
+        <h3>- Certificates-</h3>
+        <span className="bar" />
+        <p>National Association of Career Colleges </p>
+        <p>Personal Support Worker/ CCA</p>
+        <p>Standard First Aid with CPR/AED Level C.</p>
+        <p>Gentle Persuasive Approaches in Dementia Care</p>
+        <p>Work Health and Safety Awareness.</p>
+        <p>Workplace Hazardous Materials Information System.</p>
+        <p>Integrated Accessibility Standards Regulations.</p>
+        <p>Full-stack Software Developer.</p>
+        <p>Health Safety and Environment.</p>
+        <p>Fashion Designing and Seamstress.</p>
+        <p>Desktop Publishing.</p>
         <Link to="/contact" className="btn">
           CONTACT
         </Link>
