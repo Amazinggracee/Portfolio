@@ -46,6 +46,9 @@ const NavBar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
+        <img className="into-img" src= "../assets/Recom.pdf" alt="hero" />
+        </li>
+        <li>
           <a
             href="https://docs.google.com/document/d/1C2Z7Pb4Df2tawjva2SaTF1NIZdx7If-sKyOpLF8QXrk/edit?usp=sharing"
             target="_blank"
