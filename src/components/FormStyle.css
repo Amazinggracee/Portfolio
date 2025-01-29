@@ -4,7 +4,6 @@ form {
   padding-bottom: 5%;
   display: flex;
   flex-direction: column;
-  width: 50%;
   margin: auto;
 }
 
@@ -55,14 +54,22 @@ textarea {
 
 @media (max-width: 768px) {
   .view-resume-button {
-    width: 100%; 
+    width: 100%;
   }
 
   input[type="text"] {
     width: 100%;
   }
-   form {
+
+  form {
     width: 80%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+    /* width: 50%; */
+    margin: auto;
   }
 
   label {
@@ -73,13 +80,4 @@ textarea {
   textarea {
     width: 100%;
   }
-
-form {
-  padding-top: 1%;
-  padding-bottom: 5%;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin: auto;
-}
 }
