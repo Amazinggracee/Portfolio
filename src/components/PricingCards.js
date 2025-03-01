@@ -47,6 +47,7 @@ const PricingCards = () => (
         <p>Personal Support Worker/ CCA</p>
         <p>Standard First Aid with CPR/AED Level C.</p>
         <p>Gentle Persuasive Approaches in Dementia Care</p>
+        <p>All-In Palliative Care: The Team Approach to LTC</p>
         <p>Work Health and Safety Awareness.</p>
         <p>Workplace Hazardous Materials Information System.</p>
         <p>Integrated Accessibility Standards Regulations.</p>
