@@ -51,6 +51,9 @@
     z-index: -3;
     transition: 0.3s;
   }
+  #MobileCv {
+    display: none;
+}
 
   .nav-menu.active {
     left: 0;
@@ -66,5 +69,15 @@
 
   .hamburger {
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #largeSc {
+      display: none;
+  }
+
+  #MobileCv {
+      display: block;
   }
 }
