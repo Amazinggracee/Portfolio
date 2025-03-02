@@ -51,9 +51,10 @@
     z-index: -3;
     transition: 0.3s;
   }
+
   #MobileCv {
     display: none;
-}
+  }
 
   .nav-menu.active {
     left: 0;
@@ -74,10 +75,10 @@
 
 @media (max-width: 768px) {
   #largeSc {
-      display: none;
+    display: none;
   }
 
   #MobileCv {
-      display: block;
+    display: block;
   }
 }
