@@ -9,7 +9,7 @@ const About = () => (
     <NavBar />
     <HeroImg2
       heading="About."
-      text=" Full-stack Developer with a strong passion for technology and a dedication to delivering exceptional web applications and solutions. My background includes expertise in both front-end and back-end development, allowing me to create well-rounded and efficient digital experiences."
+      text=" I am a dedicated Social Service Worker, Personal Support Worker, and Software Developer with a passion for helping people and solving complex problems. With experience in social services and healthcare, I provide compassionate support to individuals in need while upholding ethical standards and integrity. As a software developer, I leverage technology to create innovative solutions that enhance lives and improve efficiency. My diverse skill set allows me to bridge the gap between human services and technology, making a meaningful impact in both fields. I am committed to continuous learning, professional growth, and making a difference in my community."
     />
     <AboutContent />
     <Footer />
