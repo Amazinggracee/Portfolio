@@ -63,9 +63,18 @@ const NavBar = () => {
             Cover Letter
           </a>
         </li>
-        <li>
+        <li id="largeSc">
           <a
             href="https://docs.google.com/document/d/1C2Z7Pb4Df2tawjva2SaTF1NIZdx7If-sKyOpLF8QXrk/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
+        <li id="MobileCv">
+          <a
+            href="https://docs.google.com/document/d/1OTfHkOJ_Q6jNEQ9ahecWlGULLQ6nbDI8U-efXHXuAqw/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
