@@ -45,15 +45,6 @@ const NavBar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-        <li>
-          <a
-            href="https://www.dropbox.com/scl/fi/vnauk895746joaw7i8jyw/Recom.pdf?rlkey=3fv0d5hfvfrzs6krfo0q0e4v2&st=fazopkgb&dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Letters of Recommendation
-          </a>
-        </li>
         <li id="MobileCv">
           <a
             href="https://docs.google.com/document/d/1k4jiBvR3hyFQGcMra3QJ2J2V_5PkU1H5/edit?usp=sharing&ouid=105616791352737926348&rtpof=true&sd=true"
