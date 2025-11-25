@@ -9,7 +9,7 @@ import Pro8 from '../assets/cat.avif';
 import Pro9 from '../assets/Budget.png';
 import Pro10 from '../assets/apointment.png';
 import Pro11 from '../assets/college.png';
-import Pro12 from '../assets/social-services-worker-human-services.jpg';
+import Pro12 from '../assets/social-work-services.png';
 
 const projectCardData = [
   {
