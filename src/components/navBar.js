@@ -74,7 +74,7 @@ const NavBar = () => {
         </li>
         <li id="MobileCv">
           <a
-            href="https://docs.google.com/document/d/1OTfHkOJ_Q6jNEQ9ahecWlGULLQ6nbDI8U-efXHXuAqw/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1k4jiBvR3hyFQGcMra3QJ2J2V_5PkU1H5/edit?usp=sharing&ouid=105616791352737926348&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
           >
