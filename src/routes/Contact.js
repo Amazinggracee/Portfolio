@@ -9,7 +9,7 @@ const Contact = () => (
     <NavBar />
     <HeroImg2
       heading="Contact."
-      text="I'm always interested in hearing about new projects, so if you'd like to chat please get in touch."
+      text="I'm always interested in hearing about new projects and also available for open opportunity in any of my field of learning, so if you'd like to chat please get in touch."
     />
     <Form />
     <Footer />

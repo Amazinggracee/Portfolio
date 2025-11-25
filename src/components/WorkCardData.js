@@ -9,8 +9,15 @@ import Pro8 from '../assets/cat.avif';
 import Pro9 from '../assets/Budget.png';
 import Pro10 from '../assets/apointment.png';
 import Pro11 from '../assets/college.png';
+import Pro12 from '../assets/social-services-worker-human-services.jpg';
 
 const projectCardData = [
+  {imgsrc: Pro12,
+    title: 'Social Service Worker',
+    text: "Kindness can transform someone's dark moment with a blaze of light. You'll never know how much your caring matters.' - Amy Leigh Mercree. There are only four kinds of people in the world: Those who have been caregivers. Those who are currently caregivers. Those who will be caregivers, and those who will need a caregiver.",
+    view: '',
+    source: '',
+  },
   {
     imgsrc: Pro1,
     title: 'Personal Support Worker',

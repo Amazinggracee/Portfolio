@@ -41,8 +41,9 @@ const PricingCards = () => (
         </Link>
       </div>
       <div className="card">
-        <h3>- Certificates-</h3>
+        <h3>- Certificates/Diploma-</h3>
         <span className="bar" />
+        <p>Social Service Worker 'in progress'.</p>
         <p>National Association of Career Colleges </p>
         <p>Personal Support Worker/ CCA</p>
         <p>Standard First Aid with CPR/AED Level C.</p>
@@ -59,7 +60,22 @@ const PricingCards = () => (
           CONTACT
         </Link>
       </div>
-
+        <div className="card">
+        <h3>- Soft Skills-</h3>
+        <span className="bar" />
+        <p>Communication</p>
+        <p>Teamwork</p>
+        <p>Time management</p>
+        <p>Adaptability</p>
+        <p>Empathy</p>
+        <p>Conflict resolution</p>
+        <p>Critical thinking</p>
+        <p>Professionalism</p>
+        <p>Problem-solving</p> 
+        <Link to="/contact" className="btn">
+          CONTACT
+        </Link>
+      </div>
       <div className="card">
         <h3>- Other Professional Skills-</h3>
         <span className="bar" />
